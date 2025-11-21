@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dia SYSTEM "../DTD/PalabReto.dtd" >
+<dia id="22">
+  <letraCentral>i</letraCentral>
+  <letra>d</letra>
+  <letra>e</letra>
+  <letra>s</letra>
+  <letra>c</letra>
+  <letra>n</letra>
+  <letra>i</letra>
+  <letra>r</letra>
+  
+  <palabra long="3">
+    <contenido>cid</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>din</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>DNI</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>nin</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>Rin</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>ris</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>sic</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>sin</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>ceni</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>cien</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>cinc</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>cine</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>cric</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>crin</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>dire</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>inri</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>iris</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>ISSN</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>neis</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>RDSI</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>reir</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>reis</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>seis</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>sesi</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>sien</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>circe</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>cisne</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>decir</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>diesi</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>indie</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>iride</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>rinde</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>seise</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>serie</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>sirin</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>cernir</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>cierne</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>cierre</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>cricri</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>crisis</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>diesis</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>edrisi</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>indice</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>recien</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>rendir</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>seisen</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>sereni</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>serrin</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>sienes</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>siriri</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>cedride</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>decidir</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>diceres</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>disidir</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>ecdisis</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>enserir</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>incidir</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>inserir</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>iriense</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>redecir</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>residir</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>circense</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>decernir</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>desdecir</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>dieresis</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>encierre</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>escindir</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="9">
+    <contenido>cenicense</contenido>
+  </palabra>
+  <palabra long="9">
+    <contenido>descendir</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="9">
+    <contenido>dieciseis</contenido>
+  </palabra>
+  <palabra long="9">
+    <contenido>discerner</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="9">
+    <contenido>discernir</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="9">
+    <contenido>reincidir</contenido>
+  </palabra>
+  <palabra long="9">
+    <contenido>rescindir</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="9">
+    <contenido>sineresis</contenido>
+  </palabra>
+  <palabra long="10">
+    <contenido>sinderesis</contenido>
+  </palabra>
+  <palabra long="11">
+    <contenido>cenicerense</contenido>
+  </palabra>
+  <palabra long="11">
+    <contenido>cisneriense</contenido>
+  </palabra>
+</dia>

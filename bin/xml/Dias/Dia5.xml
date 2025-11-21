@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dia SYSTEM "../DTD/PalabReto.dtd" >
+<dia id="5">
+  <letraCentral>a</letraCentral>
+  <letra>a</letra>
+  <letra>m</letra>
+  <letra>b</letra>
+  <letra>i</letra>
+  <letra>g</letra>
+  <letra>u</letra>
+  <letra>o</letra>
+  
+  <palabra long="3">
+    <contenido>aba</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>aga</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>ama</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>ami</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>amo</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>bao</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>boa</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>bua</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>gag</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>gua</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>mam</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>mia</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>moa</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>mua</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>abaa</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>abia</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>agio</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>agua</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>ambo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>amia</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>baba</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>babi</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>baga</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>bago</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>biga</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>boba</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>boga</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>buba</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>buga</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>gaga</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>gago</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>gama</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>gamo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>giba</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>giga</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>goma</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>guao</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>guau</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>guia</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>imam</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>mabi</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>maga</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>mago</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>mama</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>mami</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>miau</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>miga</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>moai</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>moga</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>muga</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>umma</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>agami</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>aguai</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>aguio</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>amago</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>amiba</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>amibo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>amiga</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>amigo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>amomo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>Babia</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>bamba</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>bambi</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>bambu</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>bimba</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>bioma</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>bomba</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>gamba</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>gamma</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>gibao</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>gomia</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>guaba</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>guabo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>guama</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>guamo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>gubia</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>gumia</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>imago</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>magia</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>magma</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>mamba</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>mambi</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>mambo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>mamia</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>mamua</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>maoma</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>mioma</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>momia</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>umami</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>agobio</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>agogia</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>ambigu</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>amimia</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>baguio</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>baobab</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>bigama</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>bigamo</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>gambia</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>gamboa</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>guagua</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>guaimi</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>guimba</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>omagua</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>ambigua</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>ambiguo</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="7">
+    <contenido>bigamia</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>guambia</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>aguagoma</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>mimiambo</contenido>
+  </palabra>
+</dia>

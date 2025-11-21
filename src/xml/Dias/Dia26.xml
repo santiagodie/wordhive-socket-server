@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dia SYSTEM "../DTD/PalabReto.dtd" >
+<dia id="26">
+  <letraCentral>e</letraCentral>
+  <letra>h</letra>
+  <letra>i</letra>
+  <letra>a</letra>
+  <letra>l</letra>
+  <letra>o</letra>
+  <letra>d</letra>
+  <letra>e</letra>
+  
+  <palabra long="3">
+    <contenido>ahe</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>ale</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>dea</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>del</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>ele</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>led</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>leo</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>lle</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>ole</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>aeda</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>aedo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>alea</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>aloe</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>deal</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>dedo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>dele</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>edad</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>edil</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>ella</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>elle</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>ello</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>hale</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>hiel</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>idea</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>ideo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>ileo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>leal</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>leda</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>ledo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>lela</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>lelo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>lied</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>oleo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>aldea</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>aleda</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>aleli</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>alelo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>dalle</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>dedal</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>dedeo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>dedil</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>delia</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>delio</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>della</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>dello</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>edila</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>eolia</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>eolio</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>helio</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>hielo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>ideal</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>ladeo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>leida</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>leido</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>leila</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>alheli</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>dedada</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>dedalo</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>deidad</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>delado</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>helada</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>helado</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>lelili</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>oleada</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>oleado</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>adehala</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>alelada</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>alelado</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>dedillo</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>hioidea</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>hioideo</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>ladeada</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>ladeado</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>lealdad</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>aldehido</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="8">
+    <contenido>edilidad</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>haloidea</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="8">
+    <contenido>haloideo</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="9">
+    <contenido>hialoidea</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="9">
+    <contenido>hialoideo</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="9">
+    <contenido>idealidad</contenido>
+  </palabra>
+</dia>

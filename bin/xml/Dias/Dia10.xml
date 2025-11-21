@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dia SYSTEM "../DTD/PalabReto.dtd" >
+<dia id="10">
+  <letraCentral>d</letraCentral>
+  <letra>d</letra>
+  <letra>i</letra>
+  <letra>s</letra>
+  <letra>m</letra>
+  <letra>n</letra>
+  <letra>u</letra>
+  <letra>o</letra>
+  
+  <palabra long="3">
+    <contenido>din</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>diu</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>DNI</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>dom</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>don</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>dos</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>duo</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>ido</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>mod</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>sud</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>dino</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>dios</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>dodo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>domo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>dond</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>idos</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>idus</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>indo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>iodo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>modo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>mudo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>nido</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>nodo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>nudo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>odio</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>oido</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>diodo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>dison</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>dosis</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>dundo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>indio</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>modio</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>modus</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>mondo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>mundo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>nidio</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>oidio</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>osudo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>sodio</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>suido</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>didimo</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>disono</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>domino</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>donoso</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>dudoso</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>dumdum</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>indino</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>modoso</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>mondon</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>nudoso</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>odioso</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>ondoso</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>sidoso</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>sinodo</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>sonido</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>sudoso</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>undoso</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>didimio</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>dominio</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>inmundo</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>modismo</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>nudismo</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="7">
+    <contenido>sidonio</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>sindios</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>susidio</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>dimision</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>mindundi</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>omnimodo</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>undisono</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>unidosis</contenido>
+  </palabra>
+  <palabra long="9">
+    <contenido>insidioso</contenido>
+  </palabra>
+  <palabra long="9">
+    <contenido>monodosis</contenido>
+  </palabra>
+  <palabra long="10">
+    <contenido>disminuido</contenido>
+    <palabreto/>
+  </palabra>
+</dia>

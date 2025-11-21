@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dia SYSTEM "../DTD/PalabReto.dtd" >
+<dia id="14">
+  <letraCentral>o</letraCentral>
+  <letra>h</letra>
+  <letra>e</letra>
+  <letra>t</letra>
+  <letra>r</letra>
+  <letra>o</letra>
+  <letra>d</letra>
+  <letra>x</letra>
+  
+  <palabra long="3">
+    <contenido>ero</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>oro</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>oto</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>oxe</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>reo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>dedo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>dodo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>dote</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>erro</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>hoto</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>odre</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>oreo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>orto</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>otre</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>otro</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>oxte</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>reto</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>rodo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>roer</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>roto</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>tero</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>todo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>toro</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>tote</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>treo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>trox</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>dedeo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>dotor</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>error</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>exodo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>hedor</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>heroe</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>heteo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>horre</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>horro</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>orero</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>otero</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>redor</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>redox</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>redro</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>retor</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>retro</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>rodeo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>roete</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>rorro</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>rotor</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>tetro</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>texto</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>tordo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>toreo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>torre</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>trote</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>dextro</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>etereo</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>hetero</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>horreo</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>horror</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>odrero</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>redero</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>rodero</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>rodete</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>roedor</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>tedero</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>teredo</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>terreo</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>terror</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>tetero</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>todero</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>torero</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>torete</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>tortor</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>derrote</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>exhorto</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>herrero</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>horrero</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>rededor</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>terrero</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>torrero</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>tortero</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>tretero</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>trotero</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>derredor</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>heredero</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>ortodoxo</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>ortoedro</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>totorero</contenido>
+  </palabra>
+  <palabra long="9">
+    <contenido>derrotero</contenido>
+  </palabra>
+  <palabra long="9">
+    <contenido>retortero</contenido>
+  </palabra>
+  <palabra long="10">
+    <contenido>heterodoxo</contenido>
+    <palabreto/>
+  </palabra>
+</dia>

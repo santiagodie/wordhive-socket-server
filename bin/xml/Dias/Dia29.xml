@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dia SYSTEM "../DTD/PalabReto.dtd" >
+<dia id="29">
+  <letraCentral>d</letraCentral>
+  <letra>a</letra>
+  <letra>d</letra>
+  <letra>j</letra>
+  <letra>u</letra>
+  <letra>n</letra>
+  <letra>t</letra>
+  <letra>o</letra>
+  
+  <palabra long="3">
+    <contenido>ADN</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>dan</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>DDT</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>DNA</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>don</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>dua</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>duo</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>oda</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>adan</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>anda</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>dada</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>dado</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>dana</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>data</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>dato</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>dodo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>dona</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>dond</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>duda</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>dujo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>duna</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>jada</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>joda</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>judo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>nada</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>nado</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>nodo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>nuda</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>nudo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>onda</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>toda</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>todo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>tuda</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>aduja</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>ajada</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>ajado</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>andon</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>anodo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>atada</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>atado</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>ataud</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>dajao</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>danta</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>danto</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>dauda</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>donut</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>dunda</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>dundo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>jauda</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>jaudo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>jodon</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>jondo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>ojuda</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>ojudo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>tanda</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>tondo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>tunda</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>adnada</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>adnado</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>adnata</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>adnato</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>aduana</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>anadon</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>andada</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>andado</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>andana</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>andona</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>donada</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>donado</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>dotada</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>dotado</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>jodona</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>nonada</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>tajada</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>tajado</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>tonada</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>untada</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>adjunta</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>adjunto</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="7">
+    <contenido>adonada</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>adonado</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>anatada</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>anatado</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>anotada</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>anotado</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>atajada</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>donjuan</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>odonato</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>tontada</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>adundada</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>adundado</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>andanada</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>antojada</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>antojado</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>ataudada</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>ataudado</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>atontada</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>atontado</contenido>
+  </palabra>
+  <palabra long="9">
+    <contenido>tunantada</contenido>
+  </palabra>
+</dia>

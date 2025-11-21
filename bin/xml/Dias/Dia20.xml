@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dia SYSTEM "../DTD/PalabReto.dtd" >
+<dia id="20">
+  <letraCentral>g</letraCentral>
+  <letra>c</letra>
+  <letra>a</letra>
+  <letra>r</letra>
+  <letra>p</letra>
+  <letra>o</letra>
+  <letra>f</letra>
+  <letra>g</letra>
+  
+  <palabra long="3">
+    <contenido>aga</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>gag</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>gap</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>gro</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>agar</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>agra</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>agro</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>fago</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>gafa</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>gafo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>gaga</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>gago</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>gara</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>garo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>gofa</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>gofo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>gogo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>grao</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>grog</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>ogro</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>paga</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>pago</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>raga</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>rogo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>agora</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>agror</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>cagar</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>carga</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>cargo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>fraga</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>froga</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>gafar</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>garfa</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>garpa</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>garra</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>gorga</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>gorra</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>gorro</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>Graaf</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>grafo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>grapa</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>grapo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>groar</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>pagar</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>pagro</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>pargo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>rogar</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>afogar</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>agarro</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>agorar</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>agrafa</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>agrafo</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>apagar</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>carago</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>cargar</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>copago</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>fragor</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>frogar</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>garpar</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>garrar</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>gofrar</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>gorgor</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>grapar</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>porgar</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>rafaga</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>agarrar</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>arrogar</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>farrago</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>gargara</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>gargaro</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>garrafa</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>garrapa</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>garrapo</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>garrofa</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>gorgoro</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>afogarar</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>agaragar</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>apografo</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>propagar</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>prorroga</contenido>
+  </palabra>
+  <palabra long="9">
+    <contenido>cagarropa</contenido>
+  </palabra>
+  <palabra long="9">
+    <contenido>carpofaga</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="9">
+    <contenido>carpofago</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="9">
+    <contenido>coprofaga</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="9">
+    <contenido>coprofago</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="9">
+    <contenido>corografo</contenido>
+  </palabra>
+  <palabra long="9">
+    <contenido>paragrafo</contenido>
+  </palabra>
+  <palabra long="9">
+    <contenido>prorrogar</contenido>
+  </palabra>
+</dia>

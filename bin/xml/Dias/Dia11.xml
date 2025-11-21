@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dia SYSTEM "../DTD/PalabReto.dtd" >
+<dia id="11">
+  <letraCentral>i</letraCentral>
+  <letra>m</letra>
+  <letra>o</letra>
+  <letra>n</letra>
+  <letra>i</letra>
+  <letra>g</letra>
+  <letra>t</letra>
+  <letra>e</letra>
+  
+  <palabra long="3">
+    <contenido>gin</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>ion</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>mio</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>nin</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>tio</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>inti</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>item</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>mime</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>mimo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>mino</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>mito</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>moni</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>nito</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>noni</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>timo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>tino</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>titi</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>tito</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>toti</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>etimo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>genio</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>giton</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>igneo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>ingon</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>meigo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>mingo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>minio</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>mitin</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>miton</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>momio</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>motin</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>niego</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>nieto</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>nimio</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>ninot</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>nioto</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>nonio</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>tenio</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>timon</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>tineo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>tinge</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>tinte</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>tinto</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>titeo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>tomin</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>gemino</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>gentio</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>gigote</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>ignito</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>ignoto</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>inmoto</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>innoto</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>intimo</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>menino</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>miente</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>minimo</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>minino</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>mitote</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>monito</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>nomino</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>tiento</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>timote</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>tintin</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>tioneo</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>enemigo</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>engenio</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>gimnoto</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>gimoteo</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>ingenio</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>ingente</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>intento</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>meninge</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>monomio</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>teonimo</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>titingo</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>tontito</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>eminente</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>enmiente</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>gimiente</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>ingenito</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>meningeo</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>monigote</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="8">
+    <contenido>oimiento</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>teniente</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>tintineo</contenido>
+  </palabra>
+  <palabra long="9">
+    <contenido>inminente</contenido>
+  </palabra>
+  <palabra long="10">
+    <contenido>metimiento</contenido>
+  </palabra>
+  <palabra long="13">
+    <contenido>eminentemente</contenido>
+  </palabra>
+</dia>

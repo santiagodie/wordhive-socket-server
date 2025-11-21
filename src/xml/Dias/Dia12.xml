@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dia SYSTEM "../DTD/PalabReto.dtd" >
+<dia id="12">
+  <letraCentral>o</letraCentral>
+  <letra>g</letra>
+  <letra>a</letra>
+  <letra>m</letra>
+  <letra>b</letra>
+  <letra>i</letra>
+  <letra>t</letra>
+  <letra>o</letra>
+  
+  <palabra long="3">
+    <contenido>amo</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>bao</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>bio</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>boa</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>bot</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>mio</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>moa</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>obo</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>oto</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>tao</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>tio</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>toa</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>agio</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>ambo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>bago</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>bato</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>boba</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>bobo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>boga</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>boom</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>bota</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>boto</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>gago</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>gamo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>gato</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>gogo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>goma</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>gota</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>iota</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>mago</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>mato</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>mimo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>mito</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>moai</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>moga</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>mogo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>momo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>mota</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>moto</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>tabo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>tamo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>tato</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>timo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>tito</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>toba</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>toga</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>toma</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>tomo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>toti</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>amago</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>amibo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>amigo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>amito</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>amomo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>atoba</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>atomo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>bioma</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>biota</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>boato</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>bomba</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>bombo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>gibao</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>gobio</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>gomia</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>imago</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>mambo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>maoma</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>mioma</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>momia</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>momio</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>obito</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>omoto</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>otoba</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>tambo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>tibio</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>timbo</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>agobio</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>agogia</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>ambito</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>baobab</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>batato</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>bigamo</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>bigato</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>biombo</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>bitamo</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>botiga</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>botito</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>bototo</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>gabato</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>gamboa</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>gomita</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>mogata</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>mogato</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>otomia</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>toboba</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>gambito</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="7">
+    <contenido>gambota</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>moabita</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>tibomba</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>tibombo</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>mimiambo</contenido>
+  </palabra>
+  <palabra long="9">
+    <contenido>motobomba</contenido>
+  </palabra>
+</dia>

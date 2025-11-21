@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dia SYSTEM "../DTD/PalabReto.dtd" >
+<dia id="4">
+  <letraCentral>p</letraCentral>
+  <letra>m</letra>
+  <letra>a</letra>
+  <letra>p</letra>
+  <letra>u</letra>
+  <letra>n</letra>
+  <letra>d</letra>
+  <letra>i</letra>
+  
+  <palabra long="3">
+    <contenido>apa</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>api</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>pan</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>pia</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>pin</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>PNN</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>pua</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>pum</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>pun</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>upa</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>apud</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>aupa</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>mapa</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>mupi</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>napa</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>nipa</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>pana</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>papa</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>papi</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>papu</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>pian</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>pina</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>pipa</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>pipi</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>pudu</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>puma</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>puna</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>pupa</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>pupu</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>impia</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>napia</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>paina</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>pampa</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>panda</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>papin</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>papua</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>piada</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>pinna</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>pudin</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>upupa</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>paipai</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>panada</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>panama</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>panida</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>panuda</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>papada</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>papuda</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>pimpin</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>pinada</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>pindia</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>pipian</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>apanada</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>maipina</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>paduana</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>paipuda</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>pampana</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>pampina</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>pandina</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>papaina</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>pimpina</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>pinnada</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>impunida</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="9">
+    <contenido>impunidad</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="9">
+    <contenido>mapamundi</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="9">
+    <contenido>pampanada</contenido>
+  </palabra>
+  <palabra long="9">
+    <contenido>pimpampum</contenido>
+  </palabra>
+</dia>

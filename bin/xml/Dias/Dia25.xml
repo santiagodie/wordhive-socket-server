@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dia SYSTEM "../DTD/PalabReto.dtd" >
+<dia id="25">
+  <letraCentral>i</letraCentral>
+  <letra>u</letra>
+  <letra>r</letra>
+  <letra>e</letra>
+  <letra>m</letra>
+  <letra>i</letra>
+  <letra>c</letra>
+  <letra>o</letra>
+  
+  <palabra long="3">
+    <contenido>cio</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>cui</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>mio</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>mir</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>mui</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>oir</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>ori</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>rio</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>uci</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>cori</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>cric</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>crio</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>curi</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>emir</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>erio</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>icor</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>mico</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>mime</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>mimo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>muir</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>ocio</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>reir</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>rico</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>rimu</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>romi</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>rumi</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>cerio</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>ciemo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>circe</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>circo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>cirio</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>cirro</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>cocui</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>coime</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>comic</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>corio</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>cuico</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>curie</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>curio</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>curri</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>micer</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>micro</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>momio</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>morir</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>recio</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>ricio</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>rocio</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>rucio</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>urico</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>cicero</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>cierre</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>cierro</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>cimero</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>comico</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>cricri</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>ecoico</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>irruir</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>micure</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>mimico</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>murcio</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>murice</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>murrio</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>rimero</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>cimerio</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>cimorro</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>circuir</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>coimero</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>cromico</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>crumiro</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>micrero</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>mocerio</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>ocurrir</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>rociero</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>uremico</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="8">
+    <contenido>comercio</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>corecico</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>cruceiro</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>cruorico</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>mercurio</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="8">
+    <contenido>murmurio</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>recurrir</contenido>
+  </palabra>
+  <palabra long="9">
+    <contenido>mercurico</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="9">
+    <contenido>micrococo</contenido>
+  </palabra>
+</dia>

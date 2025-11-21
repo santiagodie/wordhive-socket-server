@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dia SYSTEM "../DTD/PalabReto.dtd" >
+<dia id="15">
+  <letraCentral>n</letraCentral>
+  <letra>b</letra>
+  <letra>e</letra>
+  <letra>s</letra>
+  <letra>u</letra>
+  <letra>c</letra>
+  <letra>o</letra>
+  <letra>n</letra>
+  
+  <palabra long="3">
+    <contenido>ben</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>bon</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>con</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>ene</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>eon</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>nen</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>neo</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>Noe</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>non</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>nos</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>sen</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>son</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>uno</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>bono</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>buen</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>cono</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>eneo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>nene</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>neon</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>nono</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>nube</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>nuco</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>once</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>seno</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>bocon</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>bonus</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>boson</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>bubon</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>bueno</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>cebon</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>cenco</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>censo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>cuneo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>esnob</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>nones</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>nueso</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>osuno</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>secon</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>sesen</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>sobon</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>sonso</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>sueno</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>sunco</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>buenos</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>buscon</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>cenoso</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>cocono</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>concon</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>conuco</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>coscon</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>coseno</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>cuenco</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>encono</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>eoceno</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>eunuco</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>neneco</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>noneco</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>nuboso</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>onceno</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>seceno</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>benceno</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>besucon</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="7">
+    <contenido>bonobus</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>cesenes</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>consone</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>consono</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>consuno</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>escoben</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>escobon</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>esconce</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>escuson</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>obsceno</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>oscense</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>connosco</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>consenso</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>enconoso</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>onubense</contenido>
+  </palabra>
+  <palabra long="9">
+    <contenido>soconusco</contenido>
+  </palabra>
+</dia>

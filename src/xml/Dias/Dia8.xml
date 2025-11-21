@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dia SYSTEM "../DTD/PalabReto.dtd" >
+<dia id="8">
+  <letraCentral>s</letraCentral>
+  <letra>p</letra>
+  <letra>l</letra>
+  <letra>a</letra>
+  <letra>u</letra>
+  <letra>s</letra>
+  <letra>i</letra>
+  <letra>v</letra>
+  
+  <palabra long="3">
+    <contenido>asa</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>asi</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>isa</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>las</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>lis</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>pis</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>psi</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>pus</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>sal</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>sil</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>siu</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>spa</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>sus</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>vis</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>aisa</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>aspa</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>ipsi</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>isla</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>lasa</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>lisa</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>luis</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>lusa</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>pais</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>pasa</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>pisa</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>pius</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>plas</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>plus</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>sala</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>sapa</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>sisa</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>slip</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>sula</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>usia</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>vals</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>vasa</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>visa</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>alias</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>ilusa</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>lapsa</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>lipis</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>lisis</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>luisa</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>lupus</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>pasil</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>pausa</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>pispa</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>puspa</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>salia</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>salpa</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>salsa</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>salva</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>sasal</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>savia</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>silla</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>silva</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>sisal</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>sulla</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>usual</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>alipus</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>alisal</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>asilla</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>avispa</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>lapsus</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>lipasa</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>pallas</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>papisa</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>pasiva</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>pasula</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>pispas</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>pupusa</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>saliva</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>salvia</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>valais</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>visiva</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>visual</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>alusiva</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>aplasia</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>aslilla</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>aspilla</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>ilusiva</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>isipula</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>islilla</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>papasal</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>salival</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>vasalla</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>papalisa</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>pasapasa</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>pisauvas</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>plausiva</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="8">
+    <contenido>salvilla</contenido>
+  </palabra>
+  <palabra long="9">
+    <contenido>plusvalia</contenido>
+    <palabreto/>
+  </palabra>
+</dia>

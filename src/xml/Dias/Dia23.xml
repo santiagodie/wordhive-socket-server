@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dia SYSTEM "../DTD/PalabReto.dtd" >
+<dia id="23">
+  <letraCentral>i</letraCentral>
+  <letra>s</letra>
+  <letra>o</letra>
+  <letra>l</letra>
+  <letra>i</letra>
+  <letra>d</letra>
+  <letra>e</letra>
+  <letra>z</letra>
+  
+  <palabra long="3">
+    <contenido>ido</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>ISO</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>lid</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>lio</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>lis</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>oil</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>sil</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>zis</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>diez</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>dios</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>edil</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>ideo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>idos</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>ileo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>iodo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>lied</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>lilo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>liso</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>lizo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>loli</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>odio</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>oido</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>olio</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>seis</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>sesi</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>silo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>dedil</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>delio</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>diesi</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>dildo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>diodo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>dosis</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>eolio</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>idolo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>ileso</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>isleo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>leido</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>lidio</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>lilio</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>lioso</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>lisis</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>lisol</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>lolio</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>oidio</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>oislo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>seise</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>sesil</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>sieso</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>siseo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>sodio</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>solio</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>zoilo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>zoizo</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>deslio</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>desliz</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>diesel</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>diesis</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>dolido</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>eliseo</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>elisio</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>ideoso</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>idilio</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>lelili</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>lilili</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>odioso</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>sidoso</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>solido</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>zooide</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>dedillo</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>dosillo</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>lidioso</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>silesio</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>solideo</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>solidez</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="8">
+    <contenido>seisillo</contenido>
+  </palabra>
+  <palabra long="9">
+    <contenido>desidioso</contenido>
+  </palabra>
+</dia>

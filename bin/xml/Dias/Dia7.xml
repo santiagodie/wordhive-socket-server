@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dia SYSTEM "../DTD/PalabReto.dtd" >
+<dia id="7">
+  <letraCentral>t</letraCentral>
+  <letra>d</letra>
+  <letra>i</letra>
+  <letra>f</letra>
+  <letra>u</letra>
+  <letra>n</letra>
+  <letra>t</letra>
+  <letra>a</letra>
+  
+  <palabra long="3">
+    <contenido>DDT</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>tan</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>tau</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>tia</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>TNT</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>tun</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>uta</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>afta</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>anta</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>anti</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>atan</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>atun</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>data</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>dita</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>fata</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>fiat</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>inti</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>nata</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>tana</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>tata</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>tatu</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>tifa</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>tina</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>tita</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>titi</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>tuda</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>tuit</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>tuna</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>tuta</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>tutu</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>anata</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>antia</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>atada</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>ataud</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>danta</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>fatua</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>finta</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>nafta</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>natia</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>nauta</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>tafia</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>taifa</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>taina</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>taita</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>tanda</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>tanta</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>tinta</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>titan</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>tuani</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>tuina</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>tunda</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>tunta</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>tutia</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>adnata</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>antana</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>atutia</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>finita</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>fututa</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>innata</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>nanita</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>nitida</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>tantan</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>tatita</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>tinada</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>tintin</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>tuatua</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>tunida</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>tuntun</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>tununa</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>uniata</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>untada</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>afanita</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>anatada</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>atufada</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>difunta</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="7">
+    <contenido>ditaina</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>finitud</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>infanta</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>infinta</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>tunanta</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>ataudada</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>fatuidad</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>inaudita</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>infinita</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>intifada</contenido>
+  </palabra>
+  <palabra long="9">
+    <contenido>infantina</contenido>
+  </palabra>
+  <palabra long="9">
+    <contenido>infinitud</contenido>
+  </palabra>
+  <palabra long="9">
+    <contenido>tunantada</contenido>
+  </palabra>
+</dia>

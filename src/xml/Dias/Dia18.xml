@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dia SYSTEM "../DTD/PalabReto.dtd" >
+<dia id="18">
+  <letraCentral>b</letraCentral>
+  <letra>c</letra>
+  <letra>a</letra>
+  <letra>b</letra>
+  <letra>e</letra>
+  <letra>z</letra>
+  <letra>o</letra>
+  <letra>n</letra>
+  
+  <palabra long="3">
+    <contenido>aba</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>abc</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>bao</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>ben</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>boa</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>bon</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>obo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>abaa</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>baba</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>baca</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>baza</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>bazo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>beba</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>bebe</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>bebo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>beca</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>bezo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>boba</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>bobo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>boca</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>Bona</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>bono</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>boza</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>bozo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>cabe</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>cabo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>ceba</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>cebo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>coba</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>cobo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>naba</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>nabo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>oboe</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>abaca</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>abaco</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>abano</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>abece</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>abono</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>acabe</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>acabo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>acebo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>babeo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>bacan</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>bacon</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>banca</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>banco</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>banzo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>bezon</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>bocon</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>bonzo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>bozon</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>caoba</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>caobo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>cebon</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>cobea</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>cobez</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>ebano</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>nabab</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>abazon</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>babaco</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>babaza</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>bacana</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>bacano</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>banaba</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>banana</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>banano</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>banzon</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>baobab</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>benzoe</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>bocana</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>bocaza</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>bocazo</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>bocezo</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>bocona</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>cabaza</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>cabeza</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>cabezo</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>cacabo</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>cazabe</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>cebona</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>encabe</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>nababo</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>zabeca</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>babanca</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>baezana</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>baezano</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>benceno</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>bocacaz</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>bonanza</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>cabeceo</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>cabezon</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="7">
+    <contenido>caobana</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>abonanza</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>cabezazo</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>cabezona</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="8">
+    <contenido>ebenacea</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>ebenaceo</contenido>
+  </palabra>
+  <palabra long="10">
+    <contenido>cannabacea</contenido>
+  </palabra>
+  <palabra long="10">
+    <contenido>cannabaceo</contenido>
+  </palabra>
+</dia>

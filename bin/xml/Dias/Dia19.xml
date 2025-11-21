@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dia SYSTEM "../DTD/PalabReto.dtd" >
+<dia id="19">
+  <letraCentral>s</letraCentral>
+  <letra>d</letra>
+  <letra>e</letra>
+  <letra>s</letra>
+  <letra>c</letra>
+  <letra>a</letra>
+  <letra>l</letra>
+  <letra>z</letra>
+  
+  <palabra long="3">
+    <contenido>asa</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>cas</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>des</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>esa</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>ese</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>las</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>LSD</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>sal</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>saz</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>sed</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>sel</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>ses</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>zas</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>ADSL</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>asaz</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>asca</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>casa</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>cese</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>desa</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>dese</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>esas</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>esca</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>lasa</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>lesa</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>saca</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>sala</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>seca</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>sece</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>seda</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>sede</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>aleas</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>asada</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>cales</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>casal</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>casca</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>casea</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>clase</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>deesa</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>desca</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>desde</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>ellas</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>escas</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>lasca</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>salaz</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>salce</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>salea</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>salsa</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>sasal</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>sedal</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>zasca</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>aseada</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>calces</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>calesa</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>casaca</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>casada</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>desdel</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>escala</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>escasa</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>sacada</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>salada</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>salesa</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>sesada</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>asesada</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>cascada</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>desleal</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>escalla</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>escasez</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>sacalas</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>salceda</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>secadal</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>decesada</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>desalada</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>desasada</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>descalce</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>descalza</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="8">
+    <contenido>escacada</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>escalada</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>escaseza</contenido>
+  </palabra>
+  <palabra long="9">
+    <contenido>alcaldesa</contenido>
+  </palabra>
+  <palabra long="9">
+    <contenido>desaseada</contenido>
+  </palabra>
+  <palabra long="9">
+    <contenido>descalcez</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="9">
+    <contenido>escaldada</contenido>
+  </palabra>
+  <palabra long="10">
+    <contenido>desclasada</contenido>
+  </palabra>
+  <palabra long="11">
+    <contenido>desescalada</contenido>
+  </palabra>
+</dia>

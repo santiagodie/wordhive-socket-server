@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dia SYSTEM "../DTD/PalabReto.dtd" >
+<dia id="21">
+  <letraCentral>m</letraCentral>
+  <letra>v</letra>
+  <letra>e</letra>
+  <letra>l</letra>
+  <letra>o</letra>
+  <letra>d</letra>
+  <letra>r</letra>
+  <letra>m</letra>
+  
+  <palabra long="3">
+    <contenido>dom</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>eme</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>mod</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>mol</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>mor</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>demo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>domo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>leme</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>lomo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>medo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>mele</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>meme</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>memo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>mere</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>mero</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>modo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>moer</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>mole</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>molo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>momo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>moro</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>olmo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>remo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>romo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>medro</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>merlo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>merol</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>modem</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>molde</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>moler</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>molle</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>moreo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>morro</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>mover</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>omero</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>romeo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>verme</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>vomer</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>demode</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>melero</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>meollo</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>merode</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>modelo</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>moldeo</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>molero</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>momero</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>morder</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>morreo</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>olmedo</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>remedo</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>remero</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>romero</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>demoler</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>merodeo</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>modorro</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>moldero</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>moledor</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>molledo</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>mollero</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>movedor</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>remoler</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>remover</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>moledero</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>mordedor</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>remorder</contenido>
+  </palabra>
+  <palabra long="9">
+    <contenido>demoledor</contenido>
+  </palabra>
+  <palabra long="9">
+    <contenido>remollero</contenido>
+  </palabra>
+  <palabra long="9">
+    <contenido>removedor</contenido>
+  </palabra>
+  <palabra long="9">
+    <contenido>velodromo</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="10">
+    <contenido>remordedor</contenido>
+  </palabra>
+</dia>

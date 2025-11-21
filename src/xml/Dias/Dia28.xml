@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dia SYSTEM "../DTD/PalabReto.dtd" >
+<dia id="28">
+  <letraCentral>u</letraCentral>
+  <letra>b</letra>
+  <letra>o</letra>
+  <letra>q</letra>
+  <letra>u</letra>
+  <letra>e</letra>
+  <letra>r</letra>
+  <letra>n</letra>
+  
+  <palabra long="3">
+    <contenido>bou</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>bue</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>que</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>rue</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>run</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>ube</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>uno</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>uro</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>buen</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>buro</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>euro</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>nube</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>obue</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>oque</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>queo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>rubo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>runo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>ubre</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>urbe</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>beque</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>boque</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>bruno</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>bubon</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>bueno</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>buque</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>bureo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>burro</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>eubeo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>noque</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>queer</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>quero</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>roque</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>rubeo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>rubor</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>rubro</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>rurru</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>urubu</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>boruro</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>breque</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>eburno</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>queque</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>querer</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>querub</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>runrun</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>bourbon</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>burrero</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>eburneo</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>enroque</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>neneque</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>noquero</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>obenque</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>quequeo</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>querque</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>querube</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>renqueo</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>roquero</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>boqueron</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="8">
+    <contenido>brequero</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>rebenque</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>runruneo</contenido>
+  </palabra>
+  <palabra long="12">
+    <contenido>querrequerre</contenido>
+  </palabra>
+</dia>

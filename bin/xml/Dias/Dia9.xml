@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dia SYSTEM "../DTD/PalabReto.dtd" >
+<dia id="9">
+  <letraCentral>s</letraCentral>
+  <letra>b</letra>
+  <letra>u</letra>
+  <letra>r</letra>
+  <letra>d</letra>
+  <letra>e</letra>
+  <letra>o</letra>
+  <letra>s</letra>
+  
+  <palabra long="3">
+    <contenido>bes</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>bus</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>des</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>dos</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>ese</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>eso</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>oso</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>res</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>ros</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>rus</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>sed</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>seo</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>ser</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>ses</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>sor</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>sud</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>sur</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>sus</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>USB</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>uso</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>beso</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>buso</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>dese</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>deso</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>eros</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>eser</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>esos</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>obus</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>oseo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>roso</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>ruso</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>sebe</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>sebo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>sede</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>seer</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>seor</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>seso</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>sobo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>soro</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>soso</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>suso</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>desde</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>deseo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>desus</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>dorso</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>druso</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>obeso</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>osero</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>ososo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>osudo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>rebus</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>reuso</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>roseo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>serbo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>seseo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>sobeo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>sobre</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>sorbo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>sordo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>soror</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>subeo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>sudor</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>suero</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>uebos</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>buboso</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>busero</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>desuso</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>dudoso</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>obseso</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>rebose</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>resero</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>rosero</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>seboro</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>seboso</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>sebudo</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>sedero</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>sedoso</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>seroso</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>sesudo</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>sodero</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>sorber</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>sosero</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>sudoso</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>susero</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>borroso</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>burdeos</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="7">
+    <contenido>desdoro</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>deseoso</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>deudoso</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>obusero</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>resudor</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>sobordo</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>sobrero</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>sueroso</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>susurro</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>usurero</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>berberos</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>desbeber</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>desborde</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>resorber</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>ruboroso</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>seresere</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>sorbedor</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>suberoso</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>sudoroso</contenido>
+  </palabra>
+  <palabra long="9">
+    <contenido>desdoroso</contenido>
+  </palabra>
+  <palabra long="9">
+    <contenido>sobreseer</contenido>
+  </palabra>
+  <palabra long="10">
+    <contenido>sobrebeber</contenido>
+  </palabra>
+</dia>

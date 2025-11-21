@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dia SYSTEM "../DTD/PalabReto.dtd" >
+<dia id="6">
+  <letraCentral>o</letraCentral>
+  <letra>q</letra>
+  <letra>u</letra>
+  <letra>e</letra>
+  <letra>r</letra>
+  <letra>i</letra>
+  <letra>d</letra>
+  <letra>o</letra>
+  
+  <palabra long="3">
+    <contenido>duo</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>ero</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>ido</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>oir</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>ori</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>oro</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>reo</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>rio</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>uro</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>dedo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>dodo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>duro</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>erio</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>erro</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>euro</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>ideo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>iodo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>odio</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>odre</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>oido</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>oque</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>oreo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>queo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>quio</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>rodo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>roer</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>rudo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>dedeo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>deudo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>diodo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>dorio</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>duero</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>error</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>oidio</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>oidor</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>orero</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>quedo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>quero</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>redor</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>redro</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>rodeo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>rodio</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>roido</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>roque</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>rorro</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>ruedo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>ruido</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>deudor</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>diedro</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>equido</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>ioduro</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>irideo</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>iridio</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>odrero</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>redero</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>reidor</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>rodero</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>roedor</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>doquier</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="7">
+    <contenido>quequeo</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>querido</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="7">
+    <contenido>rededor</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>reidero</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>roquedo</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>roquero</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>ruedero</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>ruidero</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>urdidor</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>derredor</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>doquiere</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="8">
+    <contenido>orquideo</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="8">
+    <contenido>quiridio</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>roquerio</contenido>
+  </palabra>
+  <palabra long="10">
+    <contenido>requeridor</contenido>
+    <palabreto/>
+  </palabra>
+</dia>

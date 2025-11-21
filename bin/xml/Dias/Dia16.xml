@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dia SYSTEM "../DTD/PalabReto.dtd" >
+<dia id="16">
+  <letraCentral>s</letraCentral>
+  <letra>y</letra>
+  <letra>a</letra>
+  <letra>n</letra>
+  <letra>g</letra>
+  <letra>u</letra>
+  <letra>e</letra>
+  <letra>s</letra>
+  
+  <palabra long="3">
+    <contenido>asa</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>esa</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>ese</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>gas</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>san</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>sen</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>ses</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>sus</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>ansa</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>asna</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>esas</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>gasa</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>gusa</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>nasa</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>saga</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>sagu</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>sana</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>saya</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>sega</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>sena</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>suya</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>agnus</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>asana</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>ensay</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>gansa</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>gauss</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>guasa</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>nansa</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>nansu</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>negus</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>nesga</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>nuesa</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>sansa</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>sauna</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>segun</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>sesen</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>sesga</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>sunna</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>ananas</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>asnuna</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>ensaye</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>guayas</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>nausea</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>sanana</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>sesena</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>susana</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>yusana</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>guasasa</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>guasaya</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>guayusa</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>guyanes</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="7">
+    <contenido>yaguasa</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>yangues</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="8">
+    <contenido>guasanga</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>guayanes</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="8">
+    <contenido>guyanesa</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="8">
+    <contenido>sanguesa</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>sayagues</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>uyunense</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>yanguesa</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="9">
+    <contenido>guayanesa</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="9">
+    <contenido>sayaguesa</contenido>
+  </palabra>
+  <palabra long="10">
+    <contenido>guayasense</contenido>
+    <palabreto/>
+  </palabra>
+</dia>

@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dia SYSTEM "../DTD/PalabReto.dtd" >
+<dia id="13">
+  <letraCentral>e</letraCentral>
+  <letra>f</letra>
+  <letra>r</letra>
+  <letra>e</letra>
+  <letra>c</letra>
+  <letra>u</letra>
+  <letra>n</letra>
+  <letra>t</letra>
+  
+  <palabra long="3">
+    <contenido>ecu</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>efe</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>ene</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>ere</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>fer</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>nen</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>rue</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>ten</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>ter</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>uce</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>cent</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>cute</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>ente</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>erre</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>eter</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>fuer</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>fuet</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>nene</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>rene</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>tete</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>tren</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>true</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>tute</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>urce</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>cerne</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>cetre</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>creer</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>cruce</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>cuete</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>curre</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>cuter</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>cutre</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>entre</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>ercer</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>ferre</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>feten</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>frete</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>fuete</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>futre</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>recre</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>reten</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>ruter</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>tener</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>tenue</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>terne</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>trece</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>trefe</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>cenete</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>centen</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>cercen</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>cerete</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>cerner</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>crecer</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>cutete</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>fernet</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>frente</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>frunce</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>fuente</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>fuerte</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>funene</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>tercer</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>terere</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>terete</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>trecen</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>trente</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>tuerce</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>urente</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>ureter</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>cercene</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>entente</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>fenecer</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>ferrete</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>furente</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>retener</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>retrete</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>tetunte</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>cerecere</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>eferente</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>enfrente</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>frutecer</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>recrecer</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>renuente</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>terrecer</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>teruteru</contenido>
+  </palabra>
+  <palabra long="9">
+    <contenido>enfurecer</contenido>
+  </palabra>
+  <palabra long="9">
+    <contenido>frecuente</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="9">
+    <contenido>referente</contenido>
+  </palabra>
+  <palabra long="10">
+    <contenido>enternecer</contenido>
+  </palabra>
+  <palabra long="10">
+    <contenido>entretener</contenido>
+  </palabra>
+  <palabra long="10">
+    <contenido>recurrente</contenido>
+  </palabra>
+</dia>

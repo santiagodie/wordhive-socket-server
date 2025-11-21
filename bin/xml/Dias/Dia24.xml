@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dia SYSTEM "../DTD/PalabReto.dtd" >
+<dia id="24">
+  <letraCentral>f</letraCentral>
+  <letra>a</letra>
+  <letra>f</letra>
+  <letra>e</letra>
+  <letra>i</letra>
+  <letra>t</letra>
+  <letra>d</letra>
+  <letra>o</letra>
+  
+  <palabra long="3">
+    <contenido>efe</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>fai</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>fea</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>feo</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>fia</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>off</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>afta</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>efod</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>fada</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>fado</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>fata</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>fato</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>feta</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>feto</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>fiat</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>fida</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>fido</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>fifi</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>fito</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>fofa</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>fofo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>foto</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>tafo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>tifa</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>tifo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>tofe</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>tofo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>afate</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>daifa</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>efeta</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>efeto</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>fiada</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>fiado</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>fideo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>ofita</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>tafia</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>taifa</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>adiafa</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>afeite</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>atafea</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>fetida</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>fetido</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>fiofio</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>ofidio</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>tafeta</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>toffee</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>afeitada</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>afeitado</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="8">
+    <contenido>tifoidea</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="8">
+    <contenido>tifoideo</contenido>
+  </palabra>
+  <palabra long="9">
+    <contenido>fotodiodo</contenido>
+  </palabra>
+</dia>

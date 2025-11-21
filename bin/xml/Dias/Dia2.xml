@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dia SYSTEM "../DTD/PalabReto.dtd" >
+<dia id="2">
+  <letraCentral>s</letraCentral>
+  <letra>d</letra>
+  <letra>e</letra>
+  <letra>m</letra>
+  <letra>p</letra>
+  <letra>l</letra>
+  <letra>o</letra>
+  
+  <palabra long="3">
+    <contenido>des</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>desde</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>desdel</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>dese</contenido>
+  </palabra>
+  <palabra long="9">
+    <contenido>desempleo</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="5">
+    <contenido>deseo</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>deseoso</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>desmolde</contenido>
+  </palabra>
+  <palabra long="9">
+    <contenido>desmoldeo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>deso</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>despeo</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>desplome</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="8">
+    <contenido>desplomo</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="6">
+    <contenido>doloso</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>dos</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>dosel</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>ellos</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>empos</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>ese</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>eso</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>esos</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>espedo</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>espeso</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>esposo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>leseo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>leso</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>lodoso</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>lomoso</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>los</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>LSD</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>meloso</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>mes</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>mesmo</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>modoso</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>moloso</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>molso</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>oleoso</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>oseo</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>oso</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>ososo</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>peloso</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>peso</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>pesol</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>plomoso</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>pomposo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>popes</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>pos</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>pose</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>poseso</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>posmo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>poso</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>pospelo</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>sed</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>sede</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>sedoso</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>sel</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>sello</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>seo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>sepe</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>ses</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>seseo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>sesmo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>seso</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>SMS</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>sol</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>soldeo</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>soledoso</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>soleo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>sollo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>solo</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>solomo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>somo</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>sompopo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>soplo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>soso</contenido>
+  </palabra>
+</dia>

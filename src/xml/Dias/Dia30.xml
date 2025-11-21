@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dia SYSTEM "../DTD/PalabReto.dtd" >
+<dia id="30">
+  <letraCentral>u</letraCentral>
+  <letra>a</letra>
+  <letra>u</letra>
+  <letra>m</letra>
+  <letra>e</letra>
+  <letra>n</letra>
+  <letra>t</letra>
+  <letra>o</letra>
+  
+  <palabra long="3">
+    <contenido>aun</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>emu</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>mua</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>mue</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>tau</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>tun</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>una</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>uno</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>uta</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>anua</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>anuo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>atun</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>auto</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>menu</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>muna</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>muon</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>muta</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>numo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>tatu</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>temu</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>tumo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>tuna</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>tuno</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>tuta</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>tute</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>tuto</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>tutu</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>umma</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>unto</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>anamu</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>mamua</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>mamut</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>mutua</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>mutuo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>nauta</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>neuma</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>numen</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>tenue</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>tunta</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>tuteo</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>amauta</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>matute</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>tauteo</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>tenuta</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>tetuan</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>teuton</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>totuma</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>totumo</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>tuatua</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>tuntun</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>tununa</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>tutano</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>anuente</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>aumento</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="7">
+    <contenido>montuna</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>montuno</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>mutante</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>noumeno</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>tetunta</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>tetunte</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>teutona</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>tontuna</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>tuautem</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>tuetano</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>tunanta</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>tunante</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>automata</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>autonoma</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>autonomo</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>mantuana</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>mantuano</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>mutuante</contenido>
+  </palabra>
+  <palabra long="9">
+    <contenido>atenuante</contenido>
+  </palabra>
+  <palabra long="9">
+    <contenido>monumento</contenido>
+  </palabra>
+  <palabra long="10">
+    <contenido>mutuamente</contenido>
+  </palabra>
+</dia>

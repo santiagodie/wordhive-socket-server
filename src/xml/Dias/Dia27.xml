@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dia SYSTEM "../DTD/PalabReto.dtd" >
+<dia id="27">
+  <letraCentral>o</letraCentral>
+  <letra>h</letra>
+  <letra>i</letra>
+  <letra>p</letra>
+  <letra>o</letra>
+  <letra>d</letra>
+  <letra>r</letra>
+  <letra>m</letra>
+  
+  <palabra long="3">
+    <contenido>dom</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>ido</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>mio</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>mod</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>mor</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>ohm</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>oir</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>ori</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>oro</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>pio</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>pom</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>pop</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>por</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>pro</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>rio</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>dodo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>domo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>hipo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>homo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>hopo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>iodo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>mimo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>modo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>moho</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>momo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>moro</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>odio</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>oido</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>opio</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>pipo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>piro</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>podo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>pomo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>popo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>poro</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>rodo</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>romi</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>romo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>diodo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>dorio</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>horro</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>impio</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>modio</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>momio</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>morir</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>morro</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>ohmio</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>oidio</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>oidor</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>opimo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>podio</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>pompi</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>pompo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>porro</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>primo</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>prior</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>ripio</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>rodio</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>roido</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>rorro</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>didimo</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>dormir</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>hipido</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>hordio</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>horror</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>iridio</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>piropo</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>podrir</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>pororo</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>primor</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>propio</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>didimio</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>dimidor</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>dormido</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>horrido</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>modorro</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>mordido</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>moridor</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>oprimir</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>oripopo</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>pimpido</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>piporro</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>podrido</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>proprio</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>rompido</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>rompopo</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>dormidor</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>impropio</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>oprimido</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>prodromo</contenido>
+  </palabra>
+  <palabra long="9">
+    <contenido>hipodromo</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="9">
+    <contenido>improprio</contenido>
+  </palabra>
+  <palabra long="9">
+    <contenido>miriopodo</contenido>
+  </palabra>
+  <palabra long="9">
+    <contenido>primordio</contenido>
+  </palabra>
+  <palabra long="10">
+    <contenido>imprimidor</contenido>
+  </palabra>
+</dia>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dia SYSTEM "../DTD/PalabReto.dtd" >
+<dia id="1">
+  <letraCentral>l</letraCentral>
+  <letra>i</letra>
+  <letra>u</letra>
+  <letra>s</letra>
+  <letra>t</letra>
+  <letra>r</letra>
+  <letra>e</letra>
+  
+  <palabra long="3">
+    <contenido>ele</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>elite</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>elle</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>eluir</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>esleer</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>esleir</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>estelles</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>esteril</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>estil</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>estilete</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>ilustre</contenido>
+    <palabreto/>
+  </palabra>
+  <palabra long="4">
+    <contenido>iril</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>istulte</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>leer</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>lelili</contenido>
+  </palabra>
+  <palabra long="9">
+    <contenido>lessueste</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>leste</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>lesueste</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>lilili</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>lis</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>lisis</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>listel</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>lite</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>litis</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>litre</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>lle</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>lue</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>lues</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>luir</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>luis</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>lulu</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>lurte</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>lustre</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>lutier</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>rele</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>releer</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>retel</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>retril</contenido>
+  </palabra>
+  <palabra long="8">
+    <contenido>retuelle</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>riel</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>ristrel</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>rule</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>rusel</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>rutel</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>sel</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>sesil</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>sestil</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>sil</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>sillete</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>sirle</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>sutil</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>tele</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>telele</contenido>
+  </palabra>
+  <palabra long="9">
+    <contenido>teleserie</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>tell</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>tertil</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>teul</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>tile</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>titil</contenido>
+  </palabra>
+  <palabra long="9">
+    <contenido>titulitis</contenido>
+  </palabra>
+  <palabra long="5">
+    <contenido>trile</contenido>
+  </palabra>
+  <palabra long="3">
+    <contenido>tul</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>tule</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>tullir</contenido>
+  </palabra>
+  <palabra long="6">
+    <contenido>turril</contenido>
+  </palabra>
+  <palabra long="7">
+    <contenido>turules</contenido>
+  </palabra>
+  <palabra long="4">
+    <contenido>util</contenido>
+  </palabra>
+</dia>
