@@ -1,5 +1,5 @@
-# PalabRETO Online Multijugador
-### Trabajo Final – Sistemas Distribuidos 2025-2026
+# Trabajo Final – Sistemas Distribuidos 2025-2026
+### PalabRETO
 
 **Autor:** Santiago Die  
 **Asignatura:** Sistemas Distribuidos – Universidad de La Rioja  
