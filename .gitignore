@@ -1,0 +1,55 @@
+# Archivos compilados de Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Directorio de compilados
+bin/
+build/
+target/
+out/
+
+# Archivos de log
+*.log
+
+# Archivos temporales
+*.tmp
+*.temp
+*.swp
+*.bak
+*~
+
+# Configuración de IDEs
+.classpath
+.project
+.settings/
+.metadata/
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+nbproject/
+nbbuild/
+dist/
+nbdist/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Archivos de Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# Archivos de Gradle
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+
