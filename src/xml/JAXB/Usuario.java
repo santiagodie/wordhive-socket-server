@@ -9,9 +9,11 @@ import java.util.List;
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlElementWrapper;
+import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
-@XmlType(name = "usuario",propOrder = {"ip", "points", "lista"})
+@XmlRootElement(name = "usuario")
+@XmlType(propOrder = {"ip", "points", "lista"})
 public class Usuario {
 
 	@XmlAttribute(name = "id", required = true)
