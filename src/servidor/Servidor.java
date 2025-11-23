@@ -18,43 +18,70 @@ import javax.xml.bind.Unmarshaller;
 import xml.JAXB.Dia;
 
 public class Servidor {
-	
-	private static int numDia = (int) (Math.random() * 29) + 1;
+
+	private static Dia diaCargado;
 
 	public static void main(String[] args) {
+
 		int nucleos = Runtime.getRuntime().availableProcessors();
 
 		ExecutorService pool = Executors.newFixedThreadPool(nucleos);
-		
-		Dia dia = deserializarDia();
-		
-		try (ServerSocket serverSocket = new ServerSocket(7777)) {
-			while (true) {
-				try {
-					Socket conexion = serverSocket.accept();
-					System.out.println("Conectado al servidor del PalabReto");
-					pool.execute(new AtenderPeticion(conexion,dia));
-				} catch (IOException e) {
-					e.printStackTrace();
+
+		diaCargado = deserializarDia();
+
+		if (diaCargado != null) {
+			try (ServerSocket serverSocket = new ServerSocket(7777)) {
+
+				System.out.println("Servidor Palabreto iniciado");
+				System.out.println("Día cargado: " + diaCargado.getId());
+
+				while (true) {
+					try {
+						Socket conexion = serverSocket.accept();
+						System.out.println("Conectado al servidor del PalabReto");
+						pool.execute(new AtenderPeticion(conexion, diaCargado));
+					} catch (IOException e) {
+						e.printStackTrace();
+					}
 				}
+			} catch (IOException e) {
+				e.printStackTrace();
+				pool.shutdown();
 			}
-		} catch (IOException e) {
-			e.printStackTrace();
-			pool.shutdown();
-		}
+		} else
+			System.out.println("Fallo al intentar abrir los datos del dia");
 	}
-	private static void serializarDia(Dia dia) { }
-	private static Dia deserializarDia() {	
+
+	private static Dia deserializarDia() {
+
+		int numDia = (int) (Math.random() * 30) + 1;
+		File fileDia = new File(Paths.get("src", "xml", "Dias", "Dia" + numDia + ".xml").toString());
+		if (!fileDia.exists()) {
+			return null;
+		}
+		// Fallo por validacion del DTD,solucion, desactivar temporalmente las
+		// restricciones de acceso a los DTD
+		String valorOriginal = System.getProperty("javax.xml.accessExternalDTD");
+		//almaceno la configuracion original
 		try {
-            JAXBContext context = JAXBContext.newInstance(Dia.class);
-            Unmarshaller unmarshaller = context.createUnmarshaller();
-            File fileDia = new File(Paths.get("xml","Dias", "Dia"+numDia+".xml").toString());
-            Dia dia = (Dia) unmarshaller.unmarshal(fileDia);           
-            return dia;
-            
-        } catch (JAXBException e) {
-            e.printStackTrace();
-            return null;
-        }
+			System.setProperty("javax.xml.accessExternalDTD", "all");
+			//le doy acceso para la validacion
+			JAXBContext context = JAXBContext.newInstance(Dia.class);
+			Unmarshaller um = context.createUnmarshaller();
+
+			Dia dia = (Dia) um.unmarshal(fileDia);
+			return dia;
+
+		} catch (JAXBException e) {
+			e.printStackTrace();
+			return null;
+		} finally {
+			if (valorOriginal != null) {
+				System.setProperty("javax.xml.accessExternalDTD", valorOriginal);
+			} else {
+				System.clearProperty("javax.xml.accessExternalDTD");
+			}
+			//restauro los los valores por defecto
+		}
 	}
 }

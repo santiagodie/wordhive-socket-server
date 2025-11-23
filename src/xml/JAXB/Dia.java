@@ -26,10 +26,10 @@ public class Dia implements Serializable {
 	private int id;
 
 	@XmlElement(name = "letraCentral", required = true)
-	private char letraCentral;
+	private String letraCentral;
 
 	@XmlElement(name = "letra", required = true)
-	private List<Character> letras;
+	private List<String> letras;
 
 	@XmlElement(name = "palabra", required = true)
 	private List<Palabra> listaPalabras;
@@ -47,23 +47,25 @@ public class Dia implements Serializable {
 		this.id = newId;
 	}
 
-	public char getLetraCentral() {
+	public String getLetraCentral() {
 		return letraCentral;
 	}
 
-	public void setLetraCentral(char letraCentral) {
+	public void setLetraCentral(String letraCentral) {
 		this.letraCentral = letraCentral;
 	}
 
-	public List<Character> getLetras() {
+	public List<String> getLetras() {
 		return this.letras;
 	}
-
-	public void setLetras(List<Character> newletras) {
+	public String letrasToString() {
+		return String.join("", letras);
+	}
+	public void setLetras(List<String> newletras) {
 		this.letras = newletras;
 	}
 	
-    public void addLetra(char letra) {
+    public void addLetra(String letra) {
         this.letras.add(letra);
     }
 
@@ -77,6 +79,14 @@ public class Dia implements Serializable {
 
 	public void addPalabra(Palabra palabra) {
 		this.listaPalabras.add(palabra);
+	}
+	public Palabra buscarPalabra(String contenido) {
+		for (Palabra p : this.listaPalabras) {
+			if (p.getContenido().equalsIgnoreCase(contenido)) {
+				return p;
+			}
+		}
+		return null;
 	}
 
 }
