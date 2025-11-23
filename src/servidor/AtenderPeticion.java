@@ -3,19 +3,20 @@
  */
 package servidor;
 
-import java.io.File;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
 import java.net.Socket;
-import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.List;
 
 import xml.JAXB.Dia;
 import xml.JAXB.Palabra;
+import xml.JAXB.Usuario;
 
 public class AtenderPeticion extends Thread {
 	private Socket s;
 	private Dia dia;
-	private int puntuacion; 
+	private int puntuacion;
 
 	public AtenderPeticion(Socket s, Dia serverDia) {
 
@@ -27,10 +28,15 @@ public class AtenderPeticion extends Thread {
 
 	@Override
 	public void run() {
+		try (BufferedReader br = new BufferedReader(new InputStreamReader(s.getInputStream()));
+				PrintWriter pw = new PrintWriter(s.getOutputStream(), true);) {
 
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 
-	private static void Menu() {
+	private static void Menu(BufferedReader br, PrintWriter pw) throws IOException {
 
 	}
 
@@ -49,7 +55,8 @@ public class AtenderPeticion extends Thread {
 		return true;
 	}
 
-	private void asignarPuntuacion(String mensaje) {
+	private String asignarPuntuacion(String mensaje, Usuario u) {
+		String respuesta;
 		if (validarPalabra(mensaje)) {
 			Palabra palabra;
 			if ((palabra = dia.buscarPalabra(mensaje)) != null) {
@@ -63,7 +70,11 @@ public class AtenderPeticion extends Thread {
 				} else {
 					puntuacion += longitud;
 				}
+				dia.removePalabra(palabra);
 			}
+			return respuesta = "";
 		}
+		return respuesta = "Palabra no valida";
+
 	}
 }

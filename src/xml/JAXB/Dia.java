@@ -58,16 +58,18 @@ public class Dia implements Serializable {
 	public List<String> getLetras() {
 		return this.letras;
 	}
+
 	public String letrasToString() {
 		return String.join("", letras);
 	}
+
 	public void setLetras(List<String> newletras) {
 		this.letras = newletras;
 	}
-	
-    public void addLetra(String letra) {
-        this.letras.add(letra);
-    }
+
+	public void addLetra(String letra) {
+		this.letras.add(letra);
+	}
 
 	public List<Palabra> getListaPalabras() {
 		return listaPalabras;
@@ -80,6 +82,7 @@ public class Dia implements Serializable {
 	public void addPalabra(Palabra palabra) {
 		this.listaPalabras.add(palabra);
 	}
+
 	public Palabra buscarPalabra(String contenido) {
 		for (Palabra p : this.listaPalabras) {
 			if (p.getContenido().equalsIgnoreCase(contenido)) {
@@ -87,6 +90,10 @@ public class Dia implements Serializable {
 			}
 		}
 		return null;
+	}
+
+	public void removePalabra(Palabra palabra) {
+		this.listaPalabras.remove(palabra);
 	}
 
 }

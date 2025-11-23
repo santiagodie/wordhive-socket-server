@@ -21,15 +21,17 @@ public class Cliente {
 				BufferedReader entrada = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 				DataInputStream teclado = new DataInputStream(System.in)) 
 		{
-			
-            
             String palabra;
             while(true) {
                 System.out.print("Mensaje (SALIR para terminar): ");
                 palabra = teclado.readLine().toLowerCase();
                 
+                salida.println(palabra);
                 
-            	
+                String respuesta = entrada.readLine();
+                System.out.println("Servidor responde: " + respuesta);
+                
+            	if("salir".equals(palabra)) break;
             }
             
             
