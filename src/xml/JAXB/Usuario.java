@@ -6,18 +6,16 @@ package xml.JAXB;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.xml.bind.annotation.XmlAttribute;
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlElementWrapper;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
 @XmlRootElement(name = "usuario")
-@XmlType(propOrder = { "ip", "points", "lista" })
+@XmlAccessorType(XmlAccessType.FIELD)
+@XmlType(propOrder = { "ip", "puntos", "lista" })
 public class Usuario {
-
-	@XmlAttribute(name = "id", required = true)
-	private int id;
 
 	@XmlElement(name = "ip", required = true)
 	private String ip;
@@ -30,15 +28,13 @@ public class Usuario {
 
 	// Constructor vacío (para JAXB)
 	private Usuario() {
-		this.id = 0;
 		this.ip = null;
 		this.puntos = 0;
 		this.lista = new ArrayList<>();
 	}
 
 	// Constructor de nuevo usuario
-	public Usuario(int clientID, String clientIP) {
-		this.id = clientID;
+	public Usuario(String clientIP) {
 		this.ip = clientIP;
 		this.puntos = 0;
 		this.lista = new ArrayList<>();
@@ -51,10 +47,6 @@ public class Usuario {
 
 	public void setIp(String clientIP) {
 		this.ip = clientIP;
-	}
-
-	public int getId() {
-		return id;
 	}
 
 	public int getPuntos() {
@@ -82,5 +74,13 @@ public class Usuario {
 
 	public void limpiarLista() {
 		this.lista.clear();
+	}
+	public boolean buscarPalabra(String contenido) {
+		for (Palabra p : this.lista) {
+			if (p.getContenido().equalsIgnoreCase(contenido)) {
+				return true;
+			}
+		}
+		return false;
 	}
 }

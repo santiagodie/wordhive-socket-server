@@ -19,23 +19,28 @@ public class Cliente {
 		try (Socket socket = new Socket(HOST, PUERTO);
 				PrintWriter salida = new PrintWriter(socket.getOutputStream(), true);
 				BufferedReader entrada = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-				DataInputStream teclado = new DataInputStream(System.in)) 
-		{
-            String palabra;
-            while(true) {
-                System.out.print("Mensaje (SALIR para terminar): ");
-                palabra = teclado.readLine().toLowerCase();
-                
-                salida.println(palabra);
-                
-                String respuesta = entrada.readLine();
-                System.out.println("Servidor responde: " + respuesta);
-                
-            	if("salir".equals(palabra)) break;
-            }
-            
-            
+				DataInputStream teclado = new DataInputStream(System.in)) {
+			String palabra;
+			String respuesta;
+			System.out.println("Mensaje ('exit now' para terminar): ");
+			while (true) {
+				System.out.println("Introduce una palabra: ");
+				palabra = teclado.readLine().toLowerCase();
+				if (palabra == null || palabra.isEmpty()) {
+					System.out.println("Entrada no valida");
+					continue;
+				}
+				if ("exit now".equals(palabra)) {
+					salida.println("exitCode");
+					respuesta = entrada.readLine();
+					System.out.println("<Servidor>: " + respuesta);
+					break;
+				}
+				salida.println(palabra);
+				respuesta = entrada.readLine();
+				System.out.println("<Servidor>: " + respuesta);
 
+			}
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

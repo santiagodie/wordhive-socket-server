@@ -11,10 +11,9 @@ import java.nio.file.Paths;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
-import javax.xml.bind.Unmarshaller;
 
+import utils.Deserializador;
 import xml.JAXB.Dia;
 
 public class Servidor {
@@ -27,7 +26,7 @@ public class Servidor {
 
 		ExecutorService pool = Executors.newFixedThreadPool(nucleos);
 
-		diaCargado = deserializarDia();
+		diaCargado = cargarDiaXml();
 
 		if (diaCargado != null) {
 			try (ServerSocket serverSocket = new ServerSocket(7777)) {
@@ -46,42 +45,30 @@ public class Servidor {
 				}
 			} catch (IOException e) {
 				e.printStackTrace();
+			} finally {
+				System.out.println("Cerrando servidor...");
 				pool.shutdown();
 			}
-		} else
+		} else {
 			System.out.println("Fallo al intentar abrir los datos del dia");
+			pool.shutdown();
+		}
+
 	}
 
-	private static Dia deserializarDia() {
+	private static Dia cargarDiaXml() {
 
 		int numDia = (int) (Math.random() * 30) + 1;
 		File fileDia = new File(Paths.get("src", "xml", "Dias", "Dia" + numDia + ".xml").toString());
 		if (!fileDia.exists()) {
 			return null;
 		}
-		// Fallo por validacion del DTD,solucion, desactivar temporalmente las
-		// restricciones de acceso a los DTD
-		String valorOriginal = System.getProperty("javax.xml.accessExternalDTD");
-		//almaceno la configuracion original
 		try {
-			System.setProperty("javax.xml.accessExternalDTD", "all");
-			//le doy acceso para la validacion
-			JAXBContext context = JAXBContext.newInstance(Dia.class);
-			Unmarshaller um = context.createUnmarshaller();
-
-			Dia dia = (Dia) um.unmarshal(fileDia);
-			return dia;
-
+			return Deserializador.deserializar(fileDia, Dia.class);
 		} catch (JAXBException e) {
 			e.printStackTrace();
 			return null;
-		} finally {
-			if (valorOriginal != null) {
-				System.setProperty("javax.xml.accessExternalDTD", valorOriginal);
-			} else {
-				System.clearProperty("javax.xml.accessExternalDTD");
-			}
-			//restauro los los valores por defecto
 		}
+
 	}
 }
