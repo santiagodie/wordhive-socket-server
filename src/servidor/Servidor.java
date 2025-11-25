@@ -3,17 +3,13 @@
  */
 package servidor;
 
-import java.io.File;
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.nio.file.Paths;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-import javax.xml.bind.JAXBException;
-
-import utils.Deserializador;
+import utils.Funcionalidad;
 import xml.JAXB.Dia;
 
 public class Servidor {
@@ -26,7 +22,7 @@ public class Servidor {
 
 		ExecutorService pool = Executors.newFixedThreadPool(nucleos);
 
-		diaCargado = cargarDiaXml();
+		diaCargado = Funcionalidad.cargarDiaXml();
 
 		if (diaCargado != null) {
 			try (ServerSocket serverSocket = new ServerSocket(7777)) {
@@ -38,7 +34,7 @@ public class Servidor {
 					try {
 						Socket conexion = serverSocket.accept();
 						System.out.println("Conectado al servidor del PalabReto");
-						pool.execute(new AtenderPeticion(conexion, diaCargado));
+						pool.execute(new AtenderConexion(conexion, diaCargado,pool));
 					} catch (IOException e) {
 						e.printStackTrace();
 					}
@@ -56,19 +52,5 @@ public class Servidor {
 
 	}
 
-	private static Dia cargarDiaXml() {
 
-		int numDia = (int) (Math.random() * 30) + 1;
-		File fileDia = new File(Paths.get("src", "xml", "Dias", "Dia" + numDia + ".xml").toString());
-		if (!fileDia.exists()) {
-			return null;
-		}
-		try {
-			return Deserializador.deserializar(fileDia, Dia.class);
-		} catch (JAXBException e) {
-			e.printStackTrace();
-			return null;
-		}
-
-	}
 }

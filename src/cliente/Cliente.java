@@ -23,6 +23,10 @@ public class Cliente {
 			String palabra;
 			String respuesta;
 			System.out.println("Mensaje ('exit now' para terminar): ");
+			
+			respuesta = entrada.readLine();
+			System.out.println("<Servidor>: " + respuesta);
+			
 			while (true) {
 				System.out.println("Introduce una palabra: ");
 				palabra = teclado.readLine().toLowerCase();

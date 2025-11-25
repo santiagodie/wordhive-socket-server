@@ -1,68 +1,17 @@
-/**
- * @author Santiago Die
- */
-package servidor;
+package utils;
 
-import java.io.BufferedReader;
 import java.io.File;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.PrintWriter;
-import java.net.Socket;
 import java.nio.file.Paths;
 
 import javax.xml.bind.JAXBException;
 
-import utils.Deserializador;
-import utils.Serializador;
 import xml.JAXB.Dia;
 import xml.JAXB.Palabra;
 import xml.JAXB.Usuario;
 
-public class AtenderPeticion extends Thread {
-	private Socket s;
-	private Dia dia;
-	private Usuario user;
+public class Funcionalidad {
 
-	public AtenderPeticion(Socket s, Dia serverDia) {
-
-		this.s = s;
-		this.dia = serverDia;
-		user = buscarUsuario(s.getInetAddress().getHostAddress());
-
-	}
-
-	@Override
-	public void run() {
-
-		try (BufferedReader br = new BufferedReader(new InputStreamReader(s.getInputStream()));
-				PrintWriter pw = new PrintWriter(s.getOutputStream(), true);) {
-
-			String palabra;
-			String respuesta;
-			while ((palabra = br.readLine()) != null) {
-				if ("exitCode".equals(palabra)) {
-					pw.println("Gracias por jugar, desconectando...");
-					break;
-				}
-				respuesta = comprobarPalabra(palabra);
-				pw.println(respuesta);
-			}
-
-		} catch (IOException e) {
-			e.printStackTrace();
-		} finally {
-			guardarUsuario(user, user.getIp());
-			try {
-				s.close();
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
-		}
-
-	}
-
-	private Usuario buscarUsuario(String IP) {
+	public static Usuario buscarUsuario(String IP) {
 		File fileUsuario = new File(Paths.get("src", "xml", "Usuarios", IP + ".xml").toString());
 		if (!fileUsuario.exists()) {
 			return new Usuario(IP);
@@ -76,7 +25,7 @@ public class AtenderPeticion extends Thread {
 
 	}
 
-	private void guardarUsuario(Usuario user, String IP) {
+	public static void guardarUsuario(Usuario user, String IP) {
 		File fileUsuario = new File(Paths.get("src", "xml", "Usuarios", IP + ".xml").toString());
 		try {
 			Serializador.serializar(user, fileUsuario);
@@ -84,8 +33,23 @@ public class AtenderPeticion extends Thread {
 			e.printStackTrace();
 		}
 	}
+	public static Dia cargarDiaXml() {
 
-	private boolean validarPalabra(String palabra) {
+		int numDia = (int) (Math.random() * 30) + 1;
+		File fileDia = new File(Paths.get("src", "xml", "Dias", "Dia" + numDia + ".xml").toString());
+		if (!fileDia.exists()) {
+			return null;
+		}
+		try {
+			return Deserializador.deserializar(fileDia, Dia.class);
+		} catch (JAXBException e) {
+			e.printStackTrace();
+			return null;
+		}
+
+	}
+
+	public static boolean validarPalabra(String palabra, Dia dia) {
 
 		if (palabra == null || palabra.isEmpty() || palabra.length() < 3) {
 
@@ -100,9 +64,9 @@ public class AtenderPeticion extends Thread {
 		return true;
 	}
 
-	private String comprobarPalabra(String mensaje) {
+	public static String comprobarPalabra(String mensaje,Usuario user,Dia dia) {
 		String respuesta;
-		if (validarPalabra(mensaje)) {
+		if (validarPalabra(mensaje, dia)) {
 			if (user.buscarPalabra(mensaje)) {
 				return respuesta = "Palabra ya usada, busca otra";
 			}
@@ -129,6 +93,5 @@ public class AtenderPeticion extends Thread {
 			}
 		}
 		return respuesta = "Palabra no valida";
-
 	}
 }
