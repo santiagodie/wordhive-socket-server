@@ -22,7 +22,6 @@ public class Funcionalidad {
 			e.printStackTrace();
 			return new Usuario(IP);
 		}
-
 	}
 
 	public static void guardarUsuario(Usuario user, String IP) {
@@ -33,6 +32,7 @@ public class Funcionalidad {
 			e.printStackTrace();
 		}
 	}
+
 	public static Dia cargarDiaXml() {
 
 		int numDia = (int) (Math.random() * 30) + 1;
@@ -46,7 +46,6 @@ public class Funcionalidad {
 			e.printStackTrace();
 			return null;
 		}
-
 	}
 
 	public static boolean validarPalabra(String palabra, Dia dia) {
@@ -64,7 +63,7 @@ public class Funcionalidad {
 		return true;
 	}
 
-	public static String comprobarPalabra(String mensaje,Usuario user,Dia dia) {
+	public static String comprobarPalabra(String mensaje, Usuario user, Dia dia) {
 		String respuesta;
 		if (validarPalabra(mensaje, dia)) {
 			if (user.buscarPalabra(mensaje)) {

@@ -3,11 +3,9 @@
  */
 package servidor;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.PrintWriter;
 import java.net.Socket;
+import java.util.concurrent.ArrayBlockingQueue;
+import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.ExecutorService;
 
 import utils.Funcionalidad;
@@ -20,7 +18,7 @@ public class AtenderConexion implements Runnable {
 	private Usuario user;
 	private ExecutorService pool;
 
-	public AtenderConexion(Socket s, Dia serverDia,ExecutorService poolServidor) {
+	public AtenderConexion(Socket s, Dia serverDia, ExecutorService poolServidor) {
 
 		this.s = s;
 		this.dia = serverDia;
@@ -30,11 +28,14 @@ public class AtenderConexion implements Runnable {
 
 	@Override
 	public void run() {
-		
-		pool.execute(new AtenderModalidadNormal(s, dia));
-		
+		if (true) {
+			pool.execute(new AtenderModalidadNormal(s, dia));
+		}
+		else if(false) {
+			final BlockingQueue<T> cola =
+					new ArrayBlockingQueue<T>(2);
+		}
 
 	}
-
 
 }
