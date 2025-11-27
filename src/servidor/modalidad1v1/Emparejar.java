@@ -1,7 +1,7 @@
 /**
  * @author Santiago Die
  */
-package servidor;
+package servidor.modalidad1v1;
 
 import java.net.Socket;
 import java.util.concurrent.ExecutorService;
@@ -33,7 +33,6 @@ public class Emparejar implements Runnable {
 				Socket[] jugadores = sala.esperarJugadores();
 				System.out.println("Sala " + idSala + " llena. Iniciando partida...");
 				pool.execute(new AtenderModalidad1vs1(jugadores[0], jugadores[1], dia));
-				gestor.eliminarSala(idSala);
 			}
 		} catch (InterruptedException e) {
 			Thread.currentThread().interrupt();

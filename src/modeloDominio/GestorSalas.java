@@ -4,11 +4,12 @@
 package modeloDominio;
 
 import java.net.Socket;
+import java.util.Map.Entry;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import servidor.Emparejar;
+import servidor.modalidad1v1.Emparejar;
 
 public class GestorSalas {
 	private final ConcurrentHashMap<Integer, SalaEspera> mapSalas;
@@ -21,7 +22,7 @@ public class GestorSalas {
 		this.pool = pool;
 	}
 
-	public int crearSala() {
+	private int crearSala() {
 		int idSala = contadorSalas.incrementAndGet();
 		String nombre = "Sala 1v1 #" + idSala;
 		SalaEspera sala = new SalaEspera(nombre);
@@ -31,11 +32,20 @@ public class GestorSalas {
 		return idSala;
 	}
 
-	public void unirseASala(int idSala, Socket s) throws InterruptedException {
-		SalaEspera sala = mapSalas.get(idSala);
-		if (sala != null) {
-			sala.añadirJugador(s);
+	private SalaEspera buscarSalaEnEspera() {
+		if (mapSalas.isEmpty()) {
+			int id = crearSala();
+			return mapSalas.get(id);
 		}
+
+		for (Entry<Integer, SalaEspera> entry : mapSalas.entrySet()) {
+			SalaEspera sala = entry.getValue();
+			if (!sala.salaLlena()) {
+				return sala;
+			}
+		}
+		int id = crearSala();
+		return mapSalas.get(id);
 	}
 
 	public void eliminarSala(int idSala) {
@@ -47,23 +57,22 @@ public class GestorSalas {
 		return mapSalas.get(idSala);
 	}
 
-	public SalaEspera buscarSalaEnEspera() {
-		int id = 0;
-		if (mapSalas.isEmpty()) {
-			id = crearSala();
-		} else {
-			boolean todoLleno = true;
-			for (SalaEspera sala : mapSalas.values()) {
-				if (!sala.salaLlena()) {
-					id = sala.hashCode();
-					todoLleno = false;
-					break;
+	public boolean procesarConexion(String protocolo, Socket s) throws InterruptedException {
+		if ("<CONNECT_PROTOCOL>".equals(protocolo)) {
+			boolean agregado = false;
+			int intentos = 0;
+			while (!agregado && intentos < 3) {
+				SalaEspera sala = buscarSalaEnEspera();
+				if (sala != null) {
+					agregado = sala.añadirJugador(s);
+					if (!agregado) {
+						System.out.println("Sala se llenó justo antes de añadir. Reintentando...");
+						intentos++;
+					}
 				}
 			}
-			if (todoLleno) {
-				id = crearSala();
-			}
+			return agregado;
 		}
-		return mapSalas.get(id);
+		return false;
 	}
 }

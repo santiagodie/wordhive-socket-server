@@ -6,26 +6,34 @@ package modeloDominio;
 import java.net.Socket;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
+import java.util.concurrent.atomic.AtomicInteger;
 
 public class SalaEspera {
 
 	private final BlockingQueue<Socket> cola;
 	private final String nombre;
+	private final AtomicInteger jugadoresActuales = new AtomicInteger(0);
 
 	public SalaEspera(String name) {
 		this.nombre = name;
 		this.cola = new LinkedBlockingQueue<>();
 	}
 
-	public void añadirJugador(Socket s) throws InterruptedException {
+	public  synchronized boolean  añadirJugador(Socket s) throws InterruptedException {
+	    if (jugadoresActuales.get() >= 2) {
+	        return false;
+	    }
 		cola.put(s);
-		System.out.println("Jugador añadido a " + nombre + " esperando a " + cola.size() + " jugadores");
+		jugadoresActuales.incrementAndGet();
+		System.out.println("Jugador añadido a " + nombre);
+		return true;
 	}
 
-	public Socket[] esperarJugadores() throws InterruptedException {
+	public synchronized Socket[] esperarJugadores() throws InterruptedException {
 		Socket[] pareja = new Socket[2];
 		pareja[0] = cola.take();
 		pareja[1] = cola.take();
+		jugadoresActuales.set(0);
 		return pareja;
 	}
 
@@ -36,7 +44,8 @@ public class SalaEspera {
 	public String getNombre() {
 		return nombre;
 	}
+
 	public boolean salaLlena() {
-		return cola.size() == 2;
+		return jugadoresActuales.get() >= 2;
 	}
 }

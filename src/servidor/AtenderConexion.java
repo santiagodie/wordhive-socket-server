@@ -35,7 +35,7 @@ public class AtenderConexion implements Runnable {
 	@Override
 	public void run() {
 		try (BufferedReader br = new BufferedReader(new InputStreamReader(s.getInputStream()));
-				PrintWriter pw = new PrintWriter(new OutputStreamWriter(s.getOutputStream()))) {
+				PrintWriter pw = new PrintWriter(new OutputStreamWriter(s.getOutputStream()), true)) {
 
 			String respuesta;
 			pw.println("Bienvenido al Servidor del Palabreto");
@@ -46,19 +46,30 @@ public class AtenderConexion implements Runnable {
 				pw.println("1.Modalidad normal");
 				pw.println("2.Modalidad 1v1");
 				respuesta = br.readLine();
-				if (respuesta == null || respuesta.isEmpty()) {
+				if ("exitCode".equals(respuesta)) {
+					pw.println("Gracias por jugar, desconectando...");
+					return;
+				} else if (respuesta == null || respuesta.isEmpty()) {
 					continue;
 				} else if ("1".equals(respuesta)) {
 					pw.println("Iniciando modo Normal...");
 					pool.execute(new AtenderModalidadNormal(s, dia));
+					return;
 				} else if ("2".equals(respuesta)) {
-
+					pw.println("Preparando modo 1v1...");
+					if (!gestorSalas.procesarConexion("<CONNECT_PROTOCOL>", s)) {
+						pw.println("Upps! Algo fallo en el emparejamiento...");
+						pw.println("Vuelve a intentarlo");
+					}
+					return;
 				} else {
 					continue;
 				}
 			}
 
 		} catch (IOException e) {
+			e.printStackTrace();
+		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
 	}

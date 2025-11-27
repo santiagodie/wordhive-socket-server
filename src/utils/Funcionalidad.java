@@ -1,8 +1,12 @@
+/**
+ * @author Santiago Die
+ */
 package utils;
 
 import java.io.File;
 import java.nio.file.Paths;
 import java.time.LocalDate;
+import java.util.ArrayList;
 
 import javax.xml.bind.JAXBException;
 
@@ -18,7 +22,10 @@ public class Funcionalidad {
 			return new Usuario(IP);
 		}
 		try {
-			return Deserializador.deserializar(fileUsuario, Usuario.class);
+			Usuario u = Deserializador.deserializar(fileUsuario, Usuario.class);
+			u.setLista(new ArrayList<>());
+			u.setPuntos(0);
+			return u;
 		} catch (JAXBException e) {
 			e.printStackTrace();
 			return new Usuario(IP);
