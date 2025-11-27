@@ -9,12 +9,14 @@ import java.net.Socket;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+import modeloDominio.GestorSalas;
 import utils.Funcionalidad;
 import xml.JAXB.Dia;
 
 public class Servidor {
 
 	private static Dia diaCargado;
+	private static GestorSalas gestorSalas;
 
 	public static void main(String[] args) {
 
@@ -22,9 +24,10 @@ public class Servidor {
 
 		ExecutorService pool = Executors.newFixedThreadPool(nucleos);
 
-		diaCargado = Funcionalidad.cargarDiaXml();
+		diaCargado = Funcionalidad.cargarDiaXml(false);
 
 		if (diaCargado != null) {
+			gestorSalas = new GestorSalas(pool);
 			try (ServerSocket serverSocket = new ServerSocket(7777)) {
 
 				System.out.println("Servidor Palabreto iniciado");
@@ -34,7 +37,7 @@ public class Servidor {
 					try {
 						Socket conexion = serverSocket.accept();
 						System.out.println("Conectado al servidor del PalabReto");
-						pool.execute(new AtenderConexion(conexion, diaCargado,pool));
+						pool.execute(new AtenderConexion(conexion, diaCargado,pool, gestorSalas));
 					} catch (IOException e) {
 						e.printStackTrace();
 					}

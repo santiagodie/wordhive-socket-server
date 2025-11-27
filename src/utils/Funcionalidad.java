@@ -2,6 +2,7 @@ package utils;
 
 import java.io.File;
 import java.nio.file.Paths;
+import java.time.LocalDate;
 
 import javax.xml.bind.JAXBException;
 
@@ -33,9 +34,16 @@ public class Funcionalidad {
 		}
 	}
 
-	public static Dia cargarDiaXml() {
+	public static Dia cargarDiaXml(boolean random) {
+		int numDia;
+		if (random) {
+			numDia = (int) (Math.random() * 30) + 1;
+		} else {
+			LocalDate fechaHoy = LocalDate.now();   
+	        numDia = fechaHoy.getDayOfMonth();
+		}
 
-		int numDia = (int) (Math.random() * 30) + 1;
+		
 		File fileDia = new File(Paths.get("src", "xml", "Dias", "Dia" + numDia + ".xml").toString());
 		if (!fileDia.exists()) {
 			return null;
