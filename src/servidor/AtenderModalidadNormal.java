@@ -6,9 +6,9 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
 
+import modeloDominio.Usuario;
 import utils.Funcionalidad;
 import xml.JAXB.Dia;
-import xml.JAXB.Usuario;
 
 public class AtenderModalidadNormal implements Runnable {
 
@@ -20,7 +20,7 @@ public class AtenderModalidadNormal implements Runnable {
 
 		this.s = s;
 		this.dia = serverDia;
-		user = Funcionalidad.buscarUsuario(s.getInetAddress().getHostAddress());
+		user = new Usuario(s.getInetAddress().getHostAddress() + ":" + s.getPort());
 	}
 
 	@Override
@@ -28,24 +28,40 @@ public class AtenderModalidadNormal implements Runnable {
 		try (BufferedReader br = new BufferedReader(new InputStreamReader(s.getInputStream()));
 				PrintWriter pw = new PrintWriter(s.getOutputStream(), true);) {
 
+			pw.println("<CLIENT_LISTEN>");
 			pw.println("Bienvenido a la modalidad Normal");
-
+			pw.println("Escribe todas palabras que puedas solo con las letras del dia para ganar puntos");
+			pw.println("Recuerda que siempre tienes que usar la letra central en tu palabra");
+			pw.println("Las letras que hay que usar hoy son '"+dia.letrasToString()+ "'y la letra central es '"+dia.getLetraCentral()+"'");
+			
 			String palabra;
 			String respuesta;
-
-			while ((palabra = br.readLine()) != null) {
-				if ("exitCode".equals(palabra)) {
-					pw.println("Gracias por jugar, desconectando...");
-					return;
+			
+			while (true) {
+				pw.println("<CLIENT_TALK>");
+				palabra = br.readLine();
+				
+				if (palabra == null) {
+					System.out.println("Cliente desconectado");
+					break;
 				}
+				
+				if ("<CLIENT_EXITCODE>".equals(palabra)) {
+					pw.println("<CLIENT_LISTEN>");
+					pw.println("Gracias por jugar, desconectando...");
+					pw.println("Puntuacion final: " + user.getPuntos() + " puntos");
+					break;
+				}
+				
 				respuesta = Funcionalidad.comprobarPalabra(palabra, user, dia);
+				pw.println("<CLIENT_LISTEN>");
 				pw.println(respuesta);
+				pw.println("Puntos actuales: " + user.getPuntos());
 			}
 
 		} catch (IOException e) {
 			e.printStackTrace();
 		} finally {
-			Funcionalidad.guardarUsuario(user, user.getIp());
 			try {
 				s.close();
 			} catch (IOException e) {

@@ -16,14 +16,12 @@ public class Emparejar implements Runnable {
 	private final SalaEspera sala;
 	private final ExecutorService pool;
 	private final Dia dia;
-	private final GestorSalas gestor;
 
-	public Emparejar(int idSala, SalaEspera sala, ExecutorService pool, GestorSalas gestor) {
+	public Emparejar(int idSala, SalaEspera sala, ExecutorService pool) {
 		this.idSala = idSala;
 		this.sala = sala;
 		this.pool = pool;
 		this.dia = Funcionalidad.cargarDiaXml(true);
-		this.gestor = gestor;
 	}
 
 	@Override

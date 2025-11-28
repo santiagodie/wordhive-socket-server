@@ -12,14 +12,11 @@ import java.net.Socket;
 import java.util.concurrent.ExecutorService;
 
 import modeloDominio.GestorSalas;
-import utils.Funcionalidad;
 import xml.JAXB.Dia;
-import xml.JAXB.Usuario;
 
 public class AtenderConexion implements Runnable {
 	private Socket s;
 	private Dia dia;
-	private Usuario user;
 	private ExecutorService pool;
 	private GestorSalas gestorSalas;
 
@@ -28,42 +25,52 @@ public class AtenderConexion implements Runnable {
 		this.s = s;
 		this.dia = serverDia;
 		this.pool = poolServidor;
-		this.user = Funcionalidad.buscarUsuario(s.getInetAddress().getHostAddress());
 		this.gestorSalas = gestorSalas;
 	}
 
 	@Override
 	public void run() {
-		try (BufferedReader br = new BufferedReader(new InputStreamReader(s.getInputStream()));
-				PrintWriter pw = new PrintWriter(new OutputStreamWriter(s.getOutputStream()), true)) {
+		BufferedReader br = null;
+		PrintWriter pw = null;
+		boolean delegarSocket = false;
+		try {
+			br = new BufferedReader(new InputStreamReader(s.getInputStream()));
+			pw = new PrintWriter(new OutputStreamWriter(s.getOutputStream()), true);
 
 			String respuesta;
+			pw.println("<CLIENT_LISTEN>");
 			pw.println("Bienvenido al Servidor del Palabreto");
 			pw.println("Para salir en cualquier momento escribre 'EXIT NOW'");
 			while (true) {
+				pw.println("<CLIENT_LISTEN>");
 				pw.println("Elige la modalidad a jugar");
 				pw.println("Escribe 1 o 2");
 				pw.println("1.Modalidad normal");
 				pw.println("2.Modalidad 1v1");
+				pw.println("<CLIENT_TALK>");
 				respuesta = br.readLine();
-				if ("exitCode".equals(respuesta)) {
+				if ("<CLIENT_EXITCODE>".equals(respuesta)) {
+					pw.println("<CLIENT_LISTEN>");
 					pw.println("Gracias por jugar, desconectando...");
-					return;
+					break;
 				} else if (respuesta == null || respuesta.isEmpty()) {
 					continue;
 				} else if ("1".equals(respuesta)) {
+					pw.println("<CLIENT_LISTEN>");
 					pw.println("Iniciando modo Normal...");
+					delegarSocket = true;
 					pool.execute(new AtenderModalidadNormal(s, dia));
-					return;
+					break;
 				} else if ("2".equals(respuesta)) {
+					pw.println("<CLIENT_LISTEN>");
 					pw.println("Preparando modo 1v1...");
-					if (!gestorSalas.procesarConexion("<CONNECT_PROTOCOL>", s)) {
+					if (gestorSalas.procesarConexion("<CONNECT_PROTOCOL>", s)) {
+						delegarSocket = true;
+						break;
+
+					} else {
 						pw.println("Upps! Algo fallo en el emparejamiento...");
-						pw.println("Vuelve a intentarlo");
 					}
-					return;
-				} else {
-					continue;
 				}
 			}
 
@@ -71,7 +78,20 @@ public class AtenderConexion implements Runnable {
 			e.printStackTrace();
 		} catch (InterruptedException e) {
 			e.printStackTrace();
+		} finally {
+			if (!delegarSocket) {
+				try {
+					if (br != null)
+						br.close();
+					if (pw != null)
+						pw.close();
+					if (s != null && !s.isClosed())
+						s.close();
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+			}
+
 		}
 	}
-
 }

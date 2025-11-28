@@ -21,29 +21,34 @@ public class Cliente {
 				BufferedReader entrada = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 				DataInputStream teclado = new DataInputStream(System.in)) {
 			String palabra;
-			String respuesta;
-			System.out.println("Mensaje ('exit now' para terminar): ");
-			
-			respuesta = entrada.readLine();
-			System.out.println("<Servidor>: " + respuesta);
-			
+			String linea;
+
 			while (true) {
-				System.out.println("Introduce una palabra: ");
-				palabra = teclado.readLine().toLowerCase();
-				if (palabra == null || palabra.isEmpty()) {
-					System.out.println("Entrada no valida");
-					continue;
-				}
-				if ("exit now".equals(palabra)) {
-					salida.println("exitCode");
-					respuesta = entrada.readLine();
-					System.out.println("<Servidor>: " + respuesta);
+				linea = entrada.readLine();
+
+				if (linea == null) {
+					System.out.println("Servidor cerró la conexión");
 					break;
 				}
-				salida.println(palabra);
-				respuesta = entrada.readLine();
-				System.out.println("<Servidor>: " + respuesta);
+				if ("<CLIENT_TALK>".equals(linea)) {
+					System.out.print("Introduce: ");
+					palabra = teclado.readLine();
+					if (palabra == null || palabra.isEmpty()) {
+						System.out.println("Entrada no válida");
+						salida.println(""); 
+						continue;
+					}
+					if ("exit now".equalsIgnoreCase(palabra)) {
+						salida.println("<CLIENT_EXITCODE>");
 
+						continue;
+					}
+					salida.println(palabra.toLowerCase());
+				} else if ("<CLIENT_LISTEN>".equals(linea)) {
+					continue;
+				} else {
+					System.out.println("<Servidor>: " + linea);
+				}
 			}
 		} catch (IOException e) {
 			e.printStackTrace();

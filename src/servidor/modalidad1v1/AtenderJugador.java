@@ -12,9 +12,9 @@ import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
 
+import modeloDominio.Usuario;
 import utils.Funcionalidad;
 import xml.JAXB.Dia;
-import xml.JAXB.Usuario;
 
 public class AtenderJugador implements Runnable {
 
@@ -23,17 +23,16 @@ public class AtenderJugador implements Runnable {
 	private AtomicInteger puntos;
 	private AtomicInteger puntosRival;
 	private AtomicBoolean juegoActivo;
-	private int numeroJugador;
 	private CountDownLatch finalizacion;
-	
+
 	private Dia dia;
 
-	public AtenderJugador(Socket s, Usuario user, AtomicInteger puntos,AtomicInteger puntosRival, AtomicBoolean juegoActivo, int num,Dia dia,CountDownLatch finalizacion) {
+	public AtenderJugador(Socket s, AtomicInteger puntos, AtomicInteger puntosRival, AtomicBoolean juegoActivo, Dia dia,
+			CountDownLatch finalizacion) {
 		this.socket = s;
-		this.usuario = user;
+		this.usuario = new Usuario(s.getInetAddress().getHostAddress() + ":" + s.getPort());
 		this.puntos = puntos;
 		this.puntosRival = puntosRival;
-		this.numeroJugador = num;
 		this.juegoActivo = juegoActivo;
 		this.dia = dia;
 		this.finalizacion = finalizacion;
@@ -43,8 +42,10 @@ public class AtenderJugador implements Runnable {
 	public void run() {
 		try (BufferedReader br = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 				PrintWriter pw = new PrintWriter(socket.getOutputStream(), true);) {
+			pw.println("<CLIENT_LISTEN>");
 			pw.println("Rival encontrado");
 			pw.println("Escribe todas las palabras que puedas en 3 minutos");
+			pw.println("Recuerda que siempre tienes que usar la letra central en tu palabra");
 			pw.println("La partida comienza en 3...");
 			Thread.sleep(1000);
 			pw.println("2...");
@@ -52,33 +53,65 @@ public class AtenderJugador implements Runnable {
 			pw.println("1...");
 			Thread.sleep(1000);
 			pw.println("¡YA! Escribe palabras:");
-			String palabra;
-			while (juegoActivo.get() && (palabra = br.readLine()) != null) {
+			pw.println("Las letras que hay que usar hoy son '" + dia.letrasToString() + "'y la letra central es '"
+					+ dia.getLetraCentral() + "'");
+			String palabra = "";
+			while (juegoActivo.get()) {
+				pw.println("<CLIENT_TALK>");
+				palabra = br.readLine();
 
-				if ("exitCode".equalsIgnoreCase(palabra)) {
-					pw.println("Te has rendido. Fin de la partida.");
+				if (palabra == null) {
+					System.out.println("Jugador " + usuario.getIdUsuario() + " se desconectó");
 					juegoActivo.set(false);
 					break;
 				}
+				if ("<CLIENT_EXITCODE>".equalsIgnoreCase(palabra)) {
+					pw.println("<CLIENT_LISTEN>");
+					pw.println("Te has rendido. Fin de la partida.");
+					juegoActivo.set(false);
+					puntos.set(-1);
+					break;
+				}
 				if (!juegoActivo.get()) {
+					pw.println("<CLIENT_LISTEN>");
 					pw.println("La partida a acabado");
 					break;
 				}
 				String respuesta = Funcionalidad.comprobarPalabra(palabra, usuario, dia);
 				puntos.set(usuario.getPuntos());
-                pw.println(respuesta);
+				pw.println(respuesta);
 			}
-			if(puntos.get() > puntosRival.get()) {pw.println("Felicidades has ganado!");}
-			else if(puntos.get() < puntosRival.get()) {pw.println("Por poco, has perdido");}
-			else if(puntos.get() == puntosRival.get()) {pw.println("Increible, habeis empatado");}
-			
+			pw.println("<CLIENT_LISTEN>");
+			pw.println("Tu puntuación: " + puntos.get() + " | Rival: " + puntosRival.get());
+			if (puntosRival.get() == -1) {
+				pw.println("¡Felicidades, has ganado!");
+				pw.println("Tu rival se ha rendido");
+			} else if (puntos.get() > puntosRival.get()) {
+				pw.println("¡Felicidades, has ganado!");
+			} else if (puntos.get() < puntosRival.get()) {
+				pw.println("Por poco, has perdido");
+			} else {
+				pw.println("¡Increíble, habéis empatado!");
+			}
 
-		} catch (IOException | InterruptedException e) {
+		} catch (IOException e) {
 			e.printStackTrace();
-		}finally {
-            finalizacion.countDown();
-        }
-
+			if (juegoActivo.get()) {
+				System.out.println("Error de conexión con jugador " + usuario.getIdUsuario());
+				juegoActivo.set(false);
+			}
+		} catch (InterruptedException e) {
+			Thread.currentThread().interrupt();
+		} finally {
+			finalizacion.countDown();
+			try {
+				if (!socket.isClosed()) {
+					socket.close();
+				}
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
 	}
 
 }

@@ -28,7 +28,7 @@ public class GestorSalas {
 		SalaEspera sala = new SalaEspera(nombre);
 		mapSalas.put(idSala, sala);
 		System.out.println("Sala de espera " + nombre + " creada");
-		new Thread(new Emparejar(idSala, sala, pool, this)).start();
+		new Thread(new Emparejar(idSala, sala, pool)).start();
 		return idSala;
 	}
 

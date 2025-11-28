@@ -6,40 +6,14 @@ package utils;
 import java.io.File;
 import java.nio.file.Paths;
 import java.time.LocalDate;
-import java.util.ArrayList;
 
 import javax.xml.bind.JAXBException;
 
+import modeloDominio.Usuario;
 import xml.JAXB.Dia;
 import xml.JAXB.Palabra;
-import xml.JAXB.Usuario;
 
 public class Funcionalidad {
-
-	public static Usuario buscarUsuario(String IP) {
-		File fileUsuario = new File(Paths.get("src", "xml", "Usuarios", IP + ".xml").toString());
-		if (!fileUsuario.exists()) {
-			return new Usuario(IP);
-		}
-		try {
-			Usuario u = Deserializador.deserializar(fileUsuario, Usuario.class);
-			u.setLista(new ArrayList<>());
-			u.setPuntos(0);
-			return u;
-		} catch (JAXBException e) {
-			e.printStackTrace();
-			return new Usuario(IP);
-		}
-	}
-
-	public static void guardarUsuario(Usuario user, String IP) {
-		File fileUsuario = new File(Paths.get("src", "xml", "Usuarios", IP + ".xml").toString());
-		try {
-			Serializador.serializar(user, fileUsuario);
-		} catch (JAXBException e) {
-			e.printStackTrace();
-		}
-	}
 
 	public static Dia cargarDiaXml(boolean random) {
 		int numDia;
@@ -102,7 +76,7 @@ public class Funcionalidad {
 					respuesta = "Palabra valida +" + longitud + "pts";
 				}
 				user.setPuntos(puntuacion);
-				user.agregarItem(palabra);
+				user.agregarPalabra(palabra);
 				return respuesta;
 			}
 		}
