@@ -19,10 +19,12 @@ public class SalaEspera {
 		this.cola = new LinkedBlockingQueue<>();
 	}
 
-	public boolean  añadirJugador(Socket s) throws InterruptedException {
-	    if (jugadoresActuales.get() >= 2) {
-	        return false;
-	    }
+	public boolean añadirJugador(Socket s) throws InterruptedException {
+		synchronized (this) {
+			if (jugadoresActuales.get() >= 2) {
+				return false;
+			}
+		}
 		cola.put(s);
 		jugadoresActuales.incrementAndGet();
 		System.out.println("Jugador añadido a " + nombre);
@@ -33,7 +35,10 @@ public class SalaEspera {
 		Socket[] pareja = new Socket[2];
 		pareja[0] = cola.take();
 		pareja[1] = cola.take();
-		jugadoresActuales.set(0);
+		synchronized (this) {
+			jugadoresActuales.set(0);
+		}
+
 		return pareja;
 	}
 

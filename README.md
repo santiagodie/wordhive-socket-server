@@ -168,15 +168,6 @@ El sistema utiliza un protocolo simple basado en comandos:
 
 ---
 
-## Problemas Conocidos y Soluciones
-
-### Deadlock en Modalidad 1v1
-**Problema:** Uso de `synchronized` en `SalaEspera.java` puede causar deadlock cuando `esperarJugadores()` bloquea esperando en `cola.take()` mientras retiene el monitor, impidiendo que `añadirJugador()` ejecute `cola.put()`.
-
-**Solución:** Eliminar `synchronized` de los métodos `añadirJugador()` y `esperarJugadores()`, ya que `BlockingQueue` ya es thread-safe.
-
----
-
 ## Autor
 
 **Santiago Die**
