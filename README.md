@@ -2,8 +2,11 @@
 ### PalabRETO
 
 **Autor:** Santiago Die
+
 **Asignatura:** Sistemas Distribuidos – Universidad de La Rioja
+
 **Curso:** 2025-2026
+
 **Entrega:** Diciembre de 2025
 
 ---
@@ -180,6 +183,8 @@ El sistema utiliza un protocolo simple basado en comandos:
 ## Autor
 
 **Santiago Die**
+
 Universidad de La Rioja
+
 Sistemas Distribuidos 2025-2026
 
