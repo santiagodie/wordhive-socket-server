@@ -19,6 +19,16 @@ El proyecto implementa un sistema cliente-servidor multi-hilo que soporta conexi
 
 ---
 
+## Reglas del Juego
+
+1. **Longitud mínima:** Las palabras deben tener al menos 3 letras
+2. **Letra central obligatoria:** Todas las palabras deben contener la letra central
+3. **Solo letras permitidas:** Solo se pueden usar las 7 letras del día
+4. **Sin repeticiones:** Cada palabra solo se puede usar una vez por partida
+5. **Palabreto:** Palabra formada por las 7 letras en una palabra , este otorga un bonus (10 + longitud puntos)
+
+---
+
 ## Características Principales
 
 - **Servidor Multi-hilo:** Utiliza un pool de hilos (`ExecutorService`) para manejar múltiples clientes simultáneamente
@@ -33,6 +43,23 @@ El proyecto implementa un sistema cliente-servidor multi-hilo que soporta conexi
 - **Carga Dinámica de Datos:** Los desafíos diarios se cargan desde archivos XML
 - **Gestión de Salas:** Sistema automático de emparejamiento para partidas 1v1
 - **Validación de Palabras:** Comprueba que las palabras sean válidas y no se repitan
+
+---
+
+## Modos de Juego
+
+### Modalidad Normal
+- Juego individual sin límite de tiempo
+- El jugador intenta formar todas las palabras posibles
+- Sistema de puntuación acumulativa
+- Para salir: escribir `exit now`
+
+### Modalidad 1v1
+- Partidas competitivas entre dos jugadores
+- Duración: 3 minutos
+- Los jugadores compiten simultáneamente
+- Gana quien acumule más puntos
+- Sistema de emparejamiento automático mediante salas de espera
 
 ---
 
@@ -117,23 +144,6 @@ TrabajoDistribuidos/
 - **Java Development Kit (JDK):** 8 o superior
 - **JAXB:** Para parsear archivos XML (incluido en JDK 8, requiere dependencia adicional en JDK 9+)
 - **Sistema Operativo:** Windows, Linux o macOS
-
----
-
-## Modos de Juego
-
-### Modalidad Normal
-- Juego individual sin límite de tiempo
-- El jugador intenta formar todas las palabras posibles
-- Sistema de puntuación acumulativa
-- Para salir: escribir `exit now`
-
-### Modalidad 1v1
-- Partidas competitivas entre dos jugadores
-- Duración: 3 minutos
-- Los jugadores compiten simultáneamente
-- Gana quien acumule más puntos
-- Sistema de emparejamiento automático mediante salas de espera
 
 ---
 
