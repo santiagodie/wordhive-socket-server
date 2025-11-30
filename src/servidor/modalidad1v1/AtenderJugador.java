@@ -104,7 +104,9 @@ public class AtenderJugador implements Runnable {
 			Thread.currentThread().interrupt();
 		} finally {
 			finalizacion.countDown();
+			System.out.println("Cliente desconectado");
 			try {
+
 				if (!socket.isClosed()) {
 					socket.close();
 				}

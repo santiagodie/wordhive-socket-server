@@ -62,6 +62,7 @@ public class AtenderModalidadNormal implements Runnable {
 		} catch (IOException e) {
 			e.printStackTrace();
 		} finally {
+			System.out.println("Cliente desconectado");
 			try {
 				s.close();
 			} catch (IOException e) {

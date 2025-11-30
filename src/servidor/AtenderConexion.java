@@ -80,6 +80,7 @@ public class AtenderConexion implements Runnable {
 			e.printStackTrace();
 		} finally {
 			if (!delegarSocket) {
+				System.out.println("Cliente desconectado");
 				try {
 					if (br != null)
 						br.close();
