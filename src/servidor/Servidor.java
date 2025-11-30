@@ -28,7 +28,7 @@ public class Servidor {
 
 		if (diaCargado != null) {
 			gestorSalas = new GestorSalas(pool);
-			try (ServerSocket serverSocket = new ServerSocket(7777,100)) {
+			try (ServerSocket serverSocket = new ServerSocket(7777)) {
 				System.out.println("Servidor Palabreto iniciado");
 				System.out.println("Día cargado: " + diaCargado.getId());
 
