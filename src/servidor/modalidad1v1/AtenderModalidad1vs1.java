@@ -5,10 +5,10 @@ package servidor.modalidad1v1;
 
 import java.net.Socket;
 import java.util.concurrent.CountDownLatch;
+import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import modeloDominio.Usuario;
 import xml.JAXB.Dia;
 
 public class AtenderModalidad1vs1 implements Runnable {
@@ -37,7 +37,7 @@ public class AtenderModalidad1vs1 implements Runnable {
 				@Override
 				public void run() {
 					try {
-						Thread.sleep(3 * 60 * 1000);// 3 minutos
+						TimeUnit.MINUTES.sleep(3);
 						juegoActivo.set(false);
 
 					} catch (InterruptedException e) {

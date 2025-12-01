@@ -9,6 +9,7 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
 import java.util.concurrent.CountDownLatch;
+import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -47,11 +48,11 @@ public class AtenderJugador implements Runnable {
 			pw.println("Escribe todas las palabras que puedas en 3 minutos");
 			pw.println("Recuerda que siempre tienes que usar la letra central en tu palabra");
 			pw.println("La partida comienza en 3...");
-			Thread.sleep(1000);
+			TimeUnit.SECONDS.sleep(1);
 			pw.println("2...");
-			Thread.sleep(1000);
+			TimeUnit.SECONDS.sleep(1);
 			pw.println("1...");
-			Thread.sleep(1000);
+			TimeUnit.SECONDS.sleep(1);
 			pw.println("¡YA! Escribe palabras:");
 			pw.println("Las letras que hay que usar hoy son '" + dia.letrasToString() + "'y la letra central es '"
 					+ dia.getLetraCentral() + "'");

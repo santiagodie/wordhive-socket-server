@@ -141,10 +141,9 @@ TrabajoDistribuidos/
 
 ## Requisitos
 
-- **Java Development Kit (JDK):** 8 o superior
-- **JAXB:** Para parsear archivos XML (incluido en JDK 8, requiere dependencia adicional en JDK 9+)
-- **Sistema Operativo:** Windows, Linux o macOS
-
+- **Java Development Kit** (JDK)
+- **JAXB:** Para parsear archivos XML (incluido en JDK )
+- **Compiler compliance level:** 1.8
 ---
 
 ## Protocolo de Comunicación
@@ -157,15 +156,6 @@ El sistema utiliza un protocolo simple basado en comandos:
 
 ---
 
-## Reglas del Juego
-
-1. **Longitud mínima:** Las palabras deben tener al menos 3 letras
-2. **Letra central obligatoria:** Todas las palabras deben contener la letra central
-3. **Solo letras permitidas:** Solo se pueden usar las 7 letras del día
-4. **Sin repeticiones:** Cada palabra solo se puede usar una vez por partida
-5. **Palabreto:** Palabra formada por las 7 letras en una palabra , este otorga un bonus (10 + longitud puntos)
-
----
 
 ## Tecnologías Utilizadas
 
