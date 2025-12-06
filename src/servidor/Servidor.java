@@ -11,6 +11,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 import modeloDominio.GestorSalas;
+import servidor.web.AtenderHTTP;
 import utils.Funcionalidad;
 import xml.JAXB.Dia;
 
@@ -32,21 +33,25 @@ public class Servidor {
 		String opcion;
 		opcion = s.nextLine();
 		if ("1".equals(opcion)) {
-			puerto = 8080;
+			puerto = 7070;
 		} else {
 			puerto = 7777;
 		}
 		if (diaCargado != null) {
 			gestorSalas = new GestorSalas(pool);
 			try (ServerSocket serverSocket = new ServerSocket(puerto)) {
-				System.out.println("Servidor Palabreto iniciado en "+ puerto);
+				System.out.println("Servidor Palabreto iniciado en " + puerto);
 				System.out.println("Día cargado: " + diaCargado.getId());
 
 				while (true) {
 					try {
 						Socket conexion = serverSocket.accept();
 						System.out.println("Cliente conectado al servidor del PalabReto");
-						pool.execute(new AtenderConexion(conexion, diaCargado, pool, gestorSalas));
+						if (puerto == 7777) {
+							pool.execute(new AtenderConexion(conexion, diaCargado, pool, gestorSalas));
+						} else if (puerto == 7070) {
+							pool.execute(new AtenderHTTP(conexion, diaCargado));
+						}
 					} catch (IOException e) {
 						e.printStackTrace();
 					}
