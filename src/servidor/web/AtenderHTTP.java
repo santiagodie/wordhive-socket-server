@@ -1,3 +1,6 @@
+/**
+ * @author Santiago Die
+ */
 package servidor.web;
 
 import java.io.BufferedReader;
@@ -28,18 +31,24 @@ public class AtenderHTTP implements Runnable {
 	public void run() {
 		try (BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 				OutputStream out = socket.getOutputStream()) {
-
 			String peticion = in.readLine();
 
 			if (peticion == null || peticion.isEmpty()) {
 				return;
 			}
-
 			System.out.println(peticion);
 			if (peticion.startsWith("GET ") || peticion.startsWith("HEAD ")) {
-				Web.atenderGETyHEAD(peticion, out, peticion.startsWith("HEAD "),HOMEDIR);
+				if (peticion.contains("/letras")) {
+					Web.atenderGetLetras(out, dia);
+				} else {
+					Web.atenderGETyHEAD(peticion, out, peticion.startsWith("HEAD "),HOMEDIR);
+				}
 			} else if (peticion.startsWith("POST ")) {
-				Web.atenderPOST(peticion, in, out,usuario,dia);
+				if (peticion.contains("/validar")) {
+	                Web.atenderValidacionAJAX(peticion, in, out, usuario, dia);
+	            } else {
+	                Web.atenderPOST(peticion, in, out, usuario, dia);
+	            }
 			} else {
 				String html = Web.makeHTMLErrorText(501, "Not Implemented");
 				byte[] contenido = html.getBytes("UTF-8");
@@ -60,4 +69,4 @@ public class AtenderHTTP implements Runnable {
 		}
 	}
 
-	}
+}

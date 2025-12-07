@@ -15,6 +15,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlTransient;
 import javax.xml.bind.annotation.XmlType;
 
+
 @XmlRootElement(name = "dia")
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(propOrder = { "letraCentral", "letras", "listaPalabras" })

@@ -18,7 +18,8 @@
 			<!-- div1 - Header -->
 			<div class="div1">
 				<header class="header">
-					<h1>Trabajo Distribuidos - PalabReto</h1>
+					<button class="button-Header" onclick="window.location.href='/'">Trabajo
+						Distribuidos - PalabReto</button>
 					<nav>
 						<a href="https://github.com/sadie27/TrabajoDistribuidos2025"
 							target="_blank"><svg xmlns="http://www.w3.org/2000/svg"
@@ -30,35 +31,66 @@
 			</div>
 			<!-- div2 - Texto izquierda -->
 			<div class="div2">
+				<div id="palabrasEncontradas" class="palabras-list">
+					<h3>Palabras encontradas:</h3>
+					<ul id="listaPalabras"></ul>
+				</div>
 				<div class="card">
 					<div class="card-info">
 						<div class="card-content">
-							<p class="title">Reglas de Juego</p>
-							<p class="description">Desafía a otro jugador en tiempo real.
-								Descubre quién puede formar más palabras.</p>
+							<p class="title">Reglas</p>
+							<ol class="description">
+								<li>-Palabras de al menos 3 letras</li>
+								<li>-Letra central obligatoria</li>
+								<li>-Solo se pueden usar las 7 letras del día</li>
+								<li>-Cada palabra solo se puede usar una vez</li>
+							</ol>
 						</div>
 					</div>
 				</div>
 			</div>
 			<!-- div3 - Texto derecha -->
 			<div class="div3">
+				<div class="score-section">
+					<h2>
+						Puntos: <span id="puntos">0</span>
+					</h2>
+				</div>
 				<div class="card">
 					<div class="card-info">
 						<div class="card-content">
-							<p class="title">Sistema de Puntuación</p>
-							<p class="description">Juega a tu propio ritmo. Un nuevo
-								desafío cada día.</p>
+							<p class="title">Puntuación</p>
+							<ol class="description">
+								<li>-Palabras de 3 letras: 1 punto</li>
+								<li>-Palabras de 4 letras: 2 puntos</li>
+								<li>-Palabras de 5+ letras: N puntos (N es la longitud)</li>
+								<li>-Palabreto (usa todas las letras): 10 + N puntos</li>
+							</ol>
 						</div>
 					</div>
 				</div>
 			</div>
+			<div class="div4">
+				<div class="game-container">
+					<div class="score-section">
+						<h2>Modalidad Normal</h2>
+					</div>
+					<div id="letrasDelDia" class="letras-dia"></div>
+					<div id="inputPalabra" class="input-group">
+						<input id="palabraInput" required="" type="text" name="text"
+							autocomplete="off" class="input"> <label
+							class="user-label">Palabra</label>
+					</div>
+					<button id="validarBtn" class="btn2">
+						<span class="spn2">VALIDAR</span>
+					</button>
+
+					<div id="resultado" class="resultado-mensaje"></div>
+
+				</div>
+			</div>
 		</div>
 	</div>
-	<script>
-        setTimeout(() => {
-            document.body.classList.add('show-content');
-        }, 0);
- 
-    </script>
+	<script src="modalidadNormal.js"></script>
 </body>
 </html>

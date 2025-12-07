@@ -1,3 +1,6 @@
+/**
+ * @author Santiago Die
+ */
 package utils;
 
 import java.io.BufferedReader;
@@ -35,7 +38,6 @@ public class Web {
 	public static void atenderPOST(String lineaPrincipal, BufferedReader in, OutputStream out, Usuario usuario, Dia dia)
 			throws IOException {
 
-		// Leer headers
 		String linea;
 		int contentLength = 0;
 		while ((linea = in.readLine()) != null && !linea.isEmpty()) {
@@ -43,23 +45,16 @@ public class Web {
 				contentLength = Integer.parseInt(linea.substring(15).trim());
 			}
 		}
-
-		// Leer body
 		char[] buffer = new char[contentLength];
 		in.read(buffer, 0, contentLength);
 		String body = new String(buffer);
 
-		// Parsear palabra
 		String palabra = "";
 		if (body.startsWith("palabra=")) {
 			palabra = body.substring(8);
 			palabra = java.net.URLDecoder.decode(palabra, "UTF-8");
 		}
-
-		// Comprobar palabra
 		String respuesta = Funcionalidad.comprobarPalabra(palabra, usuario, dia);
-
-		// Generar respuesta HTML
 		String html = crearHTMLRespuesta(palabra, respuesta, usuario.getPuntos());
 		byte[] contenido = html.getBytes("UTF-8");
 
@@ -102,30 +97,28 @@ public class Web {
 
 	// metodos practica 4
 
+	private static String mapearRuta(String ruta) {
+		if (ruta.equals("/")) {
+			return "index.html";
+		} else if (ruta.equals("/normal")) {
+			return "ModalidadNormal.html";
+		} else if (ruta.equals("/1vs1")) {
+			return "Modalidad1vs1.html";
+		}
+		return ruta.startsWith("/") ? ruta.substring(1) : ruta;
+	}
+
 	public static File buscaFichero(String m, String HOMEDIR) {
 		String fileName = "";
 		if (m.startsWith("GET ")) {
 			fileName = m.substring(4, m.indexOf(" ", 5));
-			if (fileName.equals("/")) {
-				fileName += "index.html";
-			} else if (fileName.equals("/normal")) {
-				fileName += "ModalidadNormal.html";
-			} else if (fileName.equals("/1vs1")) {
-				fileName += "Modalidad1vs1.html";
-			}
+			fileName = mapearRuta(fileName);
+		} else if (m.startsWith("HEAD ")) {
+			fileName = m.substring(5, m.indexOf(" ", 6));
+			fileName = mapearRuta(fileName);
 		}
-		if (m.startsWith("HEAD ")) {
-			// A partir de una cadena de mensaje (m) correcta (comienza por HEAD)
-			fileName = m.substring(6, m.indexOf(" ", 7));
-			if (fileName.equals("/")) {
-				fileName += "index.html";
-			}else if (fileName.equals("/normal")) {
-				fileName += "ModalidadNormal.html";
-			} else if (fileName.equals("/1vs1")) {
-				fileName += "Modalidad1vs1.html";
-			}
-		}
-		return new File(HOMEDIR, fileName);
+		File archivo = new File(HOMEDIR, fileName);
+		return archivo;
 	}
 
 	public static void sendMIMEHeading(OutputStream os, int code, String cType, long fSize) {
@@ -169,6 +162,62 @@ public class Web {
 		msg.append(" </BODY>\r\n");
 		msg.append("</HTML>\r\n");
 		return msg.toString();
+	}
+	
+	//Metodos para la validacion de palabras
+	public static void atenderValidacionAJAX(String peticion, BufferedReader in, OutputStream out, Usuario usuario,
+			Dia dia) throws IOException {
+		String linea;
+		int contentLength = 0;
+		while ((linea = in.readLine()) != null && !linea.isEmpty()) {
+			if (linea.toLowerCase().startsWith("content-length:")) {
+				contentLength = Integer.parseInt(linea.substring(15).trim());
+			}
+		}
+
+		char[] buffer = new char[contentLength];
+		in.read(buffer, 0, contentLength);
+		String body = new String(buffer);
+
+		String palabra = body.replaceAll(".*\"palabra\"\\s*:\\s*\"([^\"]+)\".*", "$1");
+
+		String respuesta = Funcionalidad.comprobarPalabra(palabra, usuario, dia);
+		String json = crearJSONRespuesta(palabra, respuesta, usuario.getPuntos());
+		byte[] contenido = json.getBytes("UTF-8");
+
+		sendMIMEHeadingJSON(out, 200, contenido.length);
+		out.write(contenido);
+		out.flush();
+	}
+
+	public static void atenderGetLetras(OutputStream out, Dia dia) throws IOException {
+		String json = crearJSONLetras(dia);
+		byte[] contenido = json.getBytes("UTF-8");
+		sendMIMEHeadingJSON(out, 200, contenido.length);
+		out.write(contenido);
+		out.flush();
+	}
+
+	public static String crearJSONRespuesta(String palabra, String resultado, int puntos) {
+		return String.format("{\"palabra\":\"%s\",\"resultado\":\"%s\",\"puntos\":%d}", palabra, resultado, puntos);
+	}
+
+	public static String crearJSONLetras(Dia dia) {
+		return String.format("{\"letras\":\"%s\",\"letraCentral\":\"%s\"}",
+			dia.letrasToString(), dia.getLetraCentral());
+	}
+
+	public static void sendMIMEHeadingJSON(OutputStream os, int code, long fSize) {
+		PrintStream dos = new PrintStream(os);
+		dos.print("HTTP/1.1 " + code + " OK\r\n");
+		dos.print("Date: " + new Date() + "\r\n");
+		dos.print("Server: Cutre http Server ver. -6.0\r\n");
+		dos.print("Access-Control-Allow-Origin: *\r\n"); // CORS
+		dos.print("Connection: close\r\n");
+		dos.print("Content-length: " + fSize + "\r\n");
+		dos.print("Content-type: application/json\r\n");
+		dos.print("\r\n");
+		dos.flush();
 	}
 
 }
