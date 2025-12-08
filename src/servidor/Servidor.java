@@ -12,6 +12,7 @@ import java.util.concurrent.Executors;
 
 import modeloDominio.GestorSalas;
 import servidor.web.AtenderHTTP;
+import servidor.web.GestorSalasWeb;
 import utils.Funcionalidad;
 import xml.JAXB.Dia;
 
@@ -19,26 +20,28 @@ public class Servidor {
 
 	private static Dia diaCargado;
 	private static GestorSalas gestorSalas;
+	private static GestorSalasWeb gestorSalasWeb;
 
 	public static void main(String[] args) {
 
 		int nucleos = Runtime.getRuntime().availableProcessors();
-
 		ExecutorService pool = Executors.newFixedThreadPool(nucleos);
 
 		diaCargado = Funcionalidad.cargarDiaXml(false);
 		System.out.println("Elige el modo de despliegue del servidor\n1.Web\n2.Consola");
 		Scanner s = new Scanner(System.in);
 		int puerto;
-		String opcion;
-		opcion = s.nextLine();
+		String opcion = s.nextLine();
+
 		if ("1".equals(opcion)) {
 			puerto = 7070;
+			gestorSalasWeb = new GestorSalasWeb(pool);
 		} else {
 			puerto = 7777;
-		}
-		if (diaCargado != null) {
 			gestorSalas = new GestorSalas(pool);
+		}
+
+		if (diaCargado != null) {
 			try (ServerSocket serverSocket = new ServerSocket(puerto)) {
 				System.out.println("Servidor Palabreto iniciado en " + puerto);
 				System.out.println("Día cargado: " + diaCargado.getId());
@@ -46,11 +49,11 @@ public class Servidor {
 				while (true) {
 					try {
 						Socket conexion = serverSocket.accept();
-						System.out.println("Cliente conectado al servidor del PalabReto");
 						if (puerto == 7777) {
+							System.out.println("Cliente conectado");
 							pool.execute(new AtenderConexion(conexion, diaCargado, pool, gestorSalas));
 						} else if (puerto == 7070) {
-							pool.execute(new AtenderHTTP(conexion, diaCargado));
+							pool.execute(new AtenderHTTP(conexion, diaCargado, gestorSalasWeb));
 						}
 					} catch (IOException e) {
 						e.printStackTrace();
@@ -66,6 +69,6 @@ public class Servidor {
 			System.out.println("Fallo al intentar abrir los datos del dia");
 			pool.shutdown();
 		}
+		s.close();
 	}
-
 }

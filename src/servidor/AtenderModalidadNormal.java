@@ -32,27 +32,28 @@ public class AtenderModalidadNormal implements Runnable {
 			pw.println("Bienvenido a la modalidad Normal");
 			pw.println("Escribe todas palabras que puedas solo con las letras del dia para ganar puntos");
 			pw.println("Recuerda que siempre tienes que usar la letra central en tu palabra");
-			pw.println("Las letras que hay que usar hoy son '"+dia.letrasToString()+ "'y la letra central es '"+dia.getLetraCentral()+"'");
-			
+			pw.println("Las letras que hay que usar hoy son '" + dia.letrasToString() + "'y la letra central es '"
+					+ dia.getLetraCentral() + "'");
+
 			String palabra;
 			String respuesta;
-			
+
 			while (true) {
 				pw.println("<CLIENT_TALK>");
 				palabra = br.readLine();
-				
+
 				if (palabra == null) {
 					System.out.println("Cliente desconectado");
 					break;
 				}
-				
+
 				if ("<CLIENT_EXITCODE>".equals(palabra)) {
 					pw.println("<CLIENT_LISTEN>");
 					pw.println("Gracias por jugar, desconectando...");
 					pw.println("Puntuacion final: " + user.getPuntos() + " puntos");
 					break;
 				}
-				
+
 				respuesta = Funcionalidad.comprobarPalabra(palabra, user, dia);
 				pw.println("<CLIENT_LISTEN>");
 				pw.println(respuesta);

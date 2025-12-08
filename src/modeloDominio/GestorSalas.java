@@ -7,23 +7,28 @@ import java.net.Socket;
 import java.util.Map.Entry;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ExecutorService;
-import java.util.concurrent.atomic.AtomicInteger;
 
 import servidor.modalidad1v1.Emparejar;
 
 public class GestorSalas {
 	private final ConcurrentHashMap<Integer, SalaEspera> mapSalas;
-	private final AtomicInteger contadorSalas;
+	private int contadorSalas;
 	private final ExecutorService pool;
 
 	public GestorSalas(ExecutorService pool) {
 		this.mapSalas = new ConcurrentHashMap<>();
-		this.contadorSalas = new AtomicInteger(0);
+		this.contadorSalas = 0;
 		this.pool = pool;
 	}
 
 	private int crearSala() {
-		int idSala = contadorSalas.incrementAndGet();
+		int idSala;
+		
+		synchronized (this) {
+			contadorSalas++;
+			idSala = contadorSalas;
+		}
+		
 		String nombre = "Sala 1v1 #" + idSala;
 		SalaEspera sala = new SalaEspera(nombre);
 		mapSalas.put(idSala, sala);

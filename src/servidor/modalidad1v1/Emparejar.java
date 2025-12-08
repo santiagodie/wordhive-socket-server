@@ -30,7 +30,7 @@ public class Emparejar implements Runnable {
 			while (!Thread.currentThread().isInterrupted()) {
 				Socket[] jugadores = sala.esperarJugadores();
 				System.out.println("Sala " + idSala + " llena. Iniciando partida...");
-				pool.execute(new AtenderModalidad1vs1(jugadores[0], jugadores[1], dia));
+				pool.execute(new AtenderModalidad1vs1(jugadores[0], jugadores[1], dia, pool));
 			}
 		} catch (InterruptedException e) {
 			Thread.currentThread().interrupt();

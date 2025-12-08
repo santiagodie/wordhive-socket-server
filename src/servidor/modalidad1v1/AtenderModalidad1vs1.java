@@ -4,59 +4,52 @@
 package servidor.modalidad1v1;
 
 import java.net.Socket;
-import java.util.concurrent.CountDownLatch;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Future;
 import java.util.concurrent.TimeUnit;
-import java.util.concurrent.atomic.AtomicBoolean;
-import java.util.concurrent.atomic.AtomicInteger;
-
+import modeloDominio.EstadoPartida;
 import xml.JAXB.Dia;
 
 public class AtenderModalidad1vs1 implements Runnable {
 	private Socket jugador1;
 	private Socket jugador2;
 	private Dia dia;
-	private final AtomicInteger puntosJ1 = new AtomicInteger(0);
-	private final AtomicInteger puntosJ2 = new AtomicInteger(0);
-	private final AtomicBoolean juegoActivo = new AtomicBoolean(true);
-	private final CountDownLatch finalizacion = new CountDownLatch(2);
+	private final EstadoPartida estado;
+	private final ExecutorService pool;
 
-	public AtenderModalidad1vs1(Socket jugador1, Socket jugador2, Dia dia) {
+	public AtenderModalidad1vs1(Socket jugador1, Socket jugador2, Dia dia, ExecutorService pool) {
 		this.jugador1 = jugador1;
 		this.jugador2 = jugador2;
 		this.dia = dia;
+		this.estado = new EstadoPartida();
+		this.pool = pool;
 	}
 
 	@Override
 	public void run() {
+		Future<?> temporizador = null;
 		try {
-			Thread hiloJ1 = new Thread(new AtenderJugador(jugador1, puntosJ1, puntosJ2, juegoActivo, dia,finalizacion));
-			Thread hiloJ2 = new Thread(new AtenderJugador(jugador2, puntosJ2, puntosJ1, juegoActivo, dia,finalizacion));
+			pool.execute(new AtenderJugador(jugador1, estado, true, dia));
+			pool.execute(new AtenderJugador(jugador2, estado, false, dia));
 
-			Thread temporizador = new Thread(new Runnable() {
-
-				@Override
-				public void run() {
-					try {
-						TimeUnit.MINUTES.sleep(3);
-						juegoActivo.set(false);
-
-					} catch (InterruptedException e) {
-						Thread.currentThread().interrupt();
-					}
+			temporizador = pool.submit(() -> {
+				try {
+					TimeUnit.MINUTES.sleep(3);
+					estado.finalizarJuego();
+					System.out.println("Tiempo agotado");
+				} catch (InterruptedException e) {
+					Thread.currentThread().interrupt();
 				}
 			});
 
-			hiloJ1.start();
-			hiloJ2.start();
-			temporizador.start();
+			estado.esperarFinalizacion();
 
-			finalizacion.await();
-			
-			
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			Thread.currentThread().interrupt();
+		} finally {
+			if (temporizador != null && !temporizador.isDone()) {
+				temporizador.cancel(true);
+			}
 		}
 	}
-
 }

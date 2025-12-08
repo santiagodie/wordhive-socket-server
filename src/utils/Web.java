@@ -12,6 +12,8 @@ import java.io.PrintStream;
 import java.util.Date;
 
 import modeloDominio.Usuario;
+import servidor.web.GestorSalasWeb;
+import servidor.web.PartidaWeb;
 import xml.JAXB.Dia;
 
 public class Web {
@@ -163,8 +165,8 @@ public class Web {
 		msg.append("</HTML>\r\n");
 		return msg.toString();
 	}
-	
-	//Metodos para la validacion de palabras
+
+	// Metodos para la validacion de palabras
 	public static void atenderValidacionAJAX(String peticion, BufferedReader in, OutputStream out, Usuario usuario,
 			Dia dia) throws IOException {
 		String linea;
@@ -203,8 +205,8 @@ public class Web {
 	}
 
 	public static String crearJSONLetras(Dia dia) {
-		return String.format("{\"letras\":\"%s\",\"letraCentral\":\"%s\"}",
-			dia.letrasToString(), dia.getLetraCentral());
+		return String.format("{\"letras\":\"%s\",\"letraCentral\":\"%s\"}", dia.letrasToString(),
+				dia.getLetraCentral());
 	}
 
 	public static void sendMIMEHeadingJSON(OutputStream os, int code, long fSize) {
@@ -220,4 +222,42 @@ public class Web {
 		dos.flush();
 	}
 
+	public static void enviarJSON(OutputStream out, String json) throws IOException {
+		byte[] contenido = json.getBytes("UTF-8");
+		sendMIMEHeadingJSON(out, 200, contenido.length);
+		out.write(contenido);
+		out.flush();
+	}
+
+	public static void atenderValidar1vs1(String peticion, BufferedReader in, OutputStream out, GestorSalasWeb gestor,
+			String sessionId) throws IOException {
+		String linea;
+		int contentLength = 0;
+		while ((linea = in.readLine()) != null && !linea.isEmpty()) {
+			if (linea.toLowerCase().startsWith("content-length:")) {
+				contentLength = Integer.parseInt(linea.substring(15).trim());
+			}
+		}
+
+		char[] buffer = new char[contentLength];
+		in.read(buffer, 0, contentLength);
+		String body = new String(buffer);
+		String palabra = body.replaceAll(".*\"palabra\"\\s*:\\s*\"([^\"]+)\".*", "$1");
+		PartidaWeb partida = gestor.obtenerPartidaDeJugador(sessionId);
+		if (partida == null) {
+			enviarJSON(out, "{\"resultado\":\"No estás en partida\",\"puntos\":0}");
+			return;
+		}
+
+		Usuario usuario = partida.getUsuario(sessionId);
+		if (usuario == null) {
+			enviarJSON(out, "{\"resultado\":\"Error de sesión\",\"puntos\":0}");
+			return;
+		}
+		String respuesta = Funcionalidad.comprobarPalabra(palabra, usuario, partida.getDia());
+		partida.actualizarPuntos(sessionId, usuario.getPuntos());
+
+		String json = crearJSONRespuesta(palabra, respuesta, usuario.getPuntos());
+		enviarJSON(out, json);
+	}
 }

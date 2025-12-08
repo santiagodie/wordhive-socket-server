@@ -1,3 +1,6 @@
+/**
+ * @author Santiago Die
+ */
 package modeloDominio;
 
 import java.util.ArrayList;

@@ -35,7 +35,7 @@ public class Cliente {
 					palabra = teclado.readLine();
 					if (palabra == null || palabra.isEmpty()) {
 						System.out.println("Entrada no válida");
-						salida.println(""); 
+						salida.println("");
 						continue;
 					}
 					if ("exit now".equalsIgnoreCase(palabra)) {

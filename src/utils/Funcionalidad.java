@@ -20,11 +20,10 @@ public class Funcionalidad {
 		if (random) {
 			numDia = (int) (Math.random() * 30) + 1;
 		} else {
-			LocalDate fechaHoy = LocalDate.now();   
-	        numDia = fechaHoy.getDayOfMonth();
+			LocalDate fechaHoy = LocalDate.now();
+			numDia = fechaHoy.getDayOfMonth();
 		}
 
-		
 		File fileDia = new File(Paths.get("src", "xml", "Dias", "Dia" + numDia + ".xml").toString());
 		if (!fileDia.exists()) {
 			return null;
