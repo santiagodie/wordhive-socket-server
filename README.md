@@ -326,6 +326,13 @@ TrabajoDistribuidos/
    - **Opción 1 - Modo Web:** El servidor escuchará en el puerto **7070** (HTTP)
    - **Opción 2 - Modo Consola:** El servidor escuchará en el puerto **7777** (TCP)
 
+### Modo Web (Opción 1)
+1. Iniciar el servidor y seleccionar opción `1`
+2. Abrir un navegador web y navegar a `http://localhost:7070`
+3. Seleccionar la modalidad desde la página principal
+4. **Modalidad Normal:** Funciona completamente
+5. **Modalidad 1vs1:** Es una simulación cliente-side 
+
 ### Modo Consola (Opción 2)
 1. Iniciar el servidor y seleccionar opción `2`
 2. Ejecutar uno o más clientes con `Cliente.java`
@@ -333,12 +340,6 @@ TrabajoDistribuidos/
 4. Seleccionar modalidad de juego desde el menú del cliente
 5. **Modalidad 1vs1:** Funciona completamente, empareja dos clientes reales
 
-### Modo Web (Opción 1)
-1. Iniciar el servidor y seleccionar opción `1`
-2. Abrir un navegador web y navegar a `http://localhost:7070`
-3. Seleccionar la modalidad desde la página principal
-4. **Modalidad Normal:** Funciona completamente
-5. **Modalidad 1vs1:** Es una simulación cliente-side 
 
 **Nota:** Solo puedes ejecutar una instancia del servidor a la vez en un modo específico. Para probar ambos modos, debes reiniciar el servidor.
 
