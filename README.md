@@ -9,6 +9,8 @@
 
 **Entrega:** Diciembre de 2025
 
+**Nota:** 1.5/1.5
+
 ---
 
 ## Descripción
