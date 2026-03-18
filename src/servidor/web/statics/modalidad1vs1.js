@@ -12,10 +12,10 @@ let juegoActivo = false;
 
 let inputPalabra, btnValidar, resultadoDiv, puntosSpan, puntosRivalSpan, listaPalabras, gameContainer;
 
-window.addEventListener('DOMContentLoaded', async () => {
+globalThis.addEventListener('DOMContentLoaded', async () => {
     document.body.classList.add('show-content');
     gameContainer = document.querySelector('.game-container');
-    
+
     if (!gameContainer) {
         console.error('No se encontró el game-container');
         return;
@@ -161,7 +161,7 @@ async function cargarLetrasDelDia() {
     }
 }
 
-function agregarTexto(boton) {
+globalThis.agregarTexto = function(boton) {
     const input = document.getElementById('palabraInput');
     if (input) {
         input.value += boton.textContent;
