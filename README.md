@@ -2,7 +2,7 @@
 
 A multithreaded word puzzle server written in plain Java on top of raw sockets, playable from a TCP console client or from the browser through a hand-written HTTP server.
 
-**[Live demo](https://santiagodie.github.io/wordhive-socket-server/)**: a static build of the web client only (UI in Spanish) that runs entirely in the browser, validating words locally with the same rules as the server. The console mode and the real 1v1 over TCP require running the Java server (see [Getting started](#getting-started)).
+**[Live demo](https://santiagodie.github.io/wordhive-socket-server/)**: a static build of the web client only (UI in Spanish) that runs entirely in the browser, validating words locally with the same rules as the server. It is in Spanish because WordHive is a Spanish word game (the letters and the dictionary are Spanish) and the original project was developed in Spanish. The console mode and the real 1v1 over TCP require running the Java server (see [Getting started](#getting-started)).
 
 ## Overview
 
