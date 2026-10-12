@@ -2,6 +2,8 @@
 
 A multithreaded word puzzle server written in plain Java on top of raw sockets, playable from a TCP console client or from the browser through a hand-written HTTP server.
 
+**[Live demo](https://santiagodie.github.io/wordhive-socket-server/)**: a static build of the web client only (UI in Spanish) that runs entirely in the browser, validating words locally with the same rules as the server. The console mode and the real 1v1 over TCP require running the Java server (see [Getting started](#getting-started)).
+
 ## Overview
 
 WordHive is a daily word puzzle inspired by PalabReto: each day offers seven letters, one of which is the central letter, and players score points by finding valid words built only from those letters. The project explores how the same game logic behaves over two very different transports: a persistent TCP connection with a custom text protocol, which supports a real-time 1v1 mode, and stateless HTTP requests served by a minimal web server built directly on `ServerSocket`.
