@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 160" width="1200" height="160" role="img" aria-label="WordHive · Distributed Systems · University of La Rioja">
+<title>WordHive · Distributed Systems · University of La Rioja</title>
+<rect width="1200" height="160" rx="6" fill="#0B1F3A"/>
+<rect x="16" y="16" width="1168" height="128" fill="none" stroke="#C9A227" stroke-width="1" opacity=".9"/>
+<rect x="22" y="22" width="1156" height="116" fill="none" stroke="#C9A227" stroke-width=".5" opacity=".45"/>
+<text x="56" y="84" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="46" font-weight="700" letter-spacing=".01em" fill="#F5F0E1">WordHive</text>
+<path d="M56 100H100" stroke="#C9A227" stroke-width="1" opacity=".7"/>
+<text x="56" y="128" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" font-weight="400" letter-spacing=".02em" fill="#C9A227">Distributed Systems · University of La Rioja</text>
+<path d="M1024 44V116" stroke="#C9A227" stroke-width="1" opacity=".45"/>
+<g transform="translate(1101 80) scale(0.3800) translate(-155 -128)"><path d="M190 38 H66 A36.0 36.0 0 0 0 66 110 H160 A54.0 54.0 0 0 1 160 218 M24 218 H190 A90.0 90.0 0 0 0 190 38 M120 38 V80 M120 140 V218" fill="none" stroke="#C9A227" stroke-width="20" stroke-linecap="butt" stroke-linejoin="round"/></g>
+</svg>
